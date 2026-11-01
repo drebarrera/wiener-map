@@ -212,7 +212,7 @@ function GeoSearch({ placeholder, icon, iconColor, onSelect, onClear, onRegister
         <ul className="geo-results">
           {results.map(f => (
             <li key={f.id} onMouseDown={() => handleSelect(f)}>
-              <span className="res-name">{f.text}</span>
+              <span className="res-name">{f.address ? `${f.text} ${f.address}` : f.text}</span>
               <span className="res-sub">{f.place_name.split(',').slice(1).join(',').trim()}</span>
             </li>
           ))}
@@ -754,7 +754,7 @@ export default function App() {
           <button className={`save-pin-btn${pendingPoi ? ' active' : ''}`}
             onClick={handleSavePin} disabled={!pendingPoi} title="Save this pin">Save</button>
         </div>
-        <div className="nav-actions">
+        <div className="nav-actions nav-actions-btns">
           <button className="nav-btn help-btn" onClick={() => setLightbox({ mode: 'help' })}>
             Help <span className="help-btn-icon">?</span>
           </button>
@@ -876,7 +876,7 @@ export default function App() {
 
           <div className="sp-section mobile-full">
             <button className="sp-toggle" onClick={() => setShowDistricts(v => !v)}>
-              Districts {showDistricts ? '▲' : '▼'}
+              Districts {showDistricts ? '▼' : '▶'}
             </button>
             {showDistricts && (
               <DistrictPanel sentiment={sentiment} onChange={(num,val) => setSentiment(p => ({...p,[num]:val}))} />
