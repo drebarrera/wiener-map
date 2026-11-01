@@ -277,3 +277,158 @@ html, body, #root { width: 100%; height: 100%; overflow: hidden; }
   color: #60a5fa;
 }
 .lightbox-btn.primary:hover { background: rgba(96,165,250,0.25); }
+
+/* ── InfoTip ── */
+.sp-label { display: flex; align-items: center; gap: 5px; }
+.info-tip-wrap { position: relative; display: inline-flex; align-items: center; margin-left: 2px; }
+.info-tip-btn {
+  width: 14px; height: 14px; border-radius: 50%;
+  background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.18);
+  color: #64748b; font-size: 9px; font-weight: 700; font-family: inherit;
+  cursor: pointer; padding: 0; line-height: 1; display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0; transition: background 0.15s, color 0.15s;
+}
+.info-tip-btn:hover { background: rgba(96,165,250,0.15); color: #60a5fa; border-color: rgba(96,165,250,0.4); }
+.info-tip-box {
+  position: absolute; left: 18px; top: 50%; transform: translateY(-50%);
+  width: 180px; background: #1e293b; border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 6px; padding: 8px 10px; font-size: 11px; color: #94a3b8;
+  line-height: 1.5; z-index: 500; box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+  font-weight: 400; text-transform: none; letter-spacing: normal;
+}
+
+/* ── Help button ── */
+.help-btn { display: flex; align-items: center; gap: 4px; }
+.help-btn-icon {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 15px; height: 15px; border-radius: 50%;
+  background: rgba(96,165,250,0.15); border: 1px solid rgba(96,165,250,0.3);
+  color: #60a5fa; font-size: 9px; font-weight: 700; line-height: 1;
+}
+
+/* ── Pin toggle chevron ── */
+.pin-toggle-btn {
+  flex-shrink: 0; background: none; border: none;
+  color: #475569; font-size: 9px; cursor: pointer;
+  padding: 2px 4px; border-radius: 3px; line-height: 1;
+  font-family: inherit; transition: color 0.1s, background 0.1s;
+}
+.pin-toggle-btn:hover { color: #94a3b8; background: rgba(255,255,255,0.06); }
+.pin-toggle-btn.open { color: #60a5fa; }
+
+/* ── Pin editor footer (colors + trash) ── */
+.pin-editor-footer { display: flex; align-items: center; justify-content: space-between; }
+.pin-delete-btn {
+  background: none; border: none; cursor: pointer;
+  font-size: 13px; padding: 2px 4px; border-radius: 3px;
+  color: #475569; transition: color 0.1s, background 0.1s;
+}
+.pin-delete-btn:hover { color: #f87171; background: rgba(248,113,113,0.12); }
+
+/* ── Welcome lightbox ── */
+.welcome-lightbox { width: 520px; font-family: -apple-system, sans-serif; }
+.welcome-title-row { display: flex; align-items: center; gap: 8px; font-size: 15px; font-weight: 700; color: #e2e8f0; font-family: -apple-system, sans-serif; }
+.welcome-logo { font-size: 18px; }
+.welcome-intro { font-size: 13px; color: #94a3b8; line-height: 1.6; font-family: -apple-system, sans-serif; }
+.welcome-field { display: flex; flex-direction: column; gap: 6px; }
+.welcome-label { font-size: 11px; font-weight: 600; color: #64748b; text-transform: uppercase; letter-spacing: 0.05em; font-family: -apple-system, sans-serif; }
+.welcome-actions { justify-content: space-between !important; align-items: center; }
+
+/* ── Mobile layout ── */
+.mobile-legend { display: none; }
+.mobile-panel-title { display: none; }
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 6px 10px;
+    flex-wrap: wrap;
+    gap: 6px;
+    position: relative;
+    z-index: 10;
+  }
+  .nav-title { display: none; }
+  .poi-search-wrap { flex: 1; min-width: 0; order: 1; }
+  .nav-actions { order: 2; gap: 4px; }
+  .nav-btn { padding: 4px 8px; font-size: 10px; }
+
+  .app-body {
+    flex-direction: column !important;
+    position: relative;
+  }
+
+  .side-panel {
+    width: 100% !important;
+    height: 42vh;
+    border-right: none !important;
+    border-top: 1px solid rgba(255,255,255,0.08);
+    overflow-y: auto;
+    order: 2;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0;
+    padding: 8px 10px 12px;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .sp-section {
+    min-width: 180px;
+    flex: 1 1 180px;
+    padding: 6px 8px;
+    border-bottom: none;
+    border-right: 1px solid rgba(255,255,255,0.06);
+  }
+  .sp-section:last-child { border-right: none; }
+
+  /* Hide the legend section in sidebar on mobile — shown as overlay instead */
+  .sp-section:has(.legend-row) { display: none; }
+
+  .map-container { order: 1; flex: 1; min-height: 0; }
+
+  /* Legend as map overlay on mobile */
+  .mobile-legend {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    position: absolute;
+    bottom: calc(42vh + 8px);
+    right: 10px;
+    background: rgba(15,23,42,0.82);
+    backdrop-filter: blur(6px);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 8px;
+    padding: 8px 10px;
+    z-index: 5;
+    pointer-events: none;
+  }
+  .mobile-legend .legend-row { gap: 6px; font-size: 10px; }
+  .mobile-legend .lines-row { gap: 3px; }
+  .mobile-legend .lbadge { font-size: 9px; padding: 1px 4px; }
+
+  /* Title in bottom panel on mobile */
+  .mobile-panel-title {
+    display: block;
+    font-size: 10px;
+    font-weight: 700;
+    color: #475569;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 4px 0 0;
+    order: 3;
+    background: #0f172a;
+    border-top: 1px solid rgba(255,255,255,0.05);
+  }
+
+  .app { flex-direction: column; }
+  .app > div:not(.navbar) { display: flex; flex-direction: column; flex: 1; }
+}
+
+/* ── font override for all lightbox content ── */
+.lightbox, .lightbox * { font-family: -apple-system, sans-serif; }
+.lightbox-textarea, .lightbox-textarea * { font-family: 'Menlo', 'Monaco', 'Consolas', monospace; }
+
+/* ── Help sections ── */
+.help-sections { display: flex; flex-direction: column; gap: 12px; }
+.help-section { display: flex; flex-direction: column; gap: 4px; }
+.help-section-title { font-size: 12px; font-weight: 600; color: #e2e8f0; font-family: -apple-system, sans-serif; }
+.help-section p { font-size: 12px; color: #94a3b8; line-height: 1.6; margin: 0; font-family: -apple-system, sans-serif; }
