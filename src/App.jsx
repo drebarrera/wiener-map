@@ -249,14 +249,12 @@ function WelcomeLightbox({ onClose, onStart, helpOnly, initialDest, initialBudge
         <p className="lightbox-desc welcome-intro">
           This map visualises transit reach from a fixed origin: every stop reachable within your time budget is shown with a walking radius circle, indicating the approximate radial distance you could cover on foot after exiting at that stop. The map assumes direct service with no transfers.
         </p>
-        <div className="lightbox-desc welcome-intro" style={{marginTop: '6px'}}>
-          <strong style={{color:'#e2e8f0'}}>Use cases:</strong>
-          <ul className="lightbox-desc welcome-intro">
-            <li>Apartment hunting by commute time</li>
-            <li>Approximating the dispersal zone of event attendees as they re-enter the city</li>
-            <li>Tracing possible transmission spread from a known patient-zero origin.</li>
-          </ul>
-        </div>
+        <strong style={{color:'#e2e8f0', fontSize: "14px"}}>Use cases:</strong>
+        <ul className="welcome-usecases">
+          <li><strong style={{color:'#cbd5e1'}}>Apartment hunting</strong> — find every transit stop reachable from your workplace within your commute budget</li>
+          <li><strong style={{color:'#cbd5e1'}}>Event dispersal</strong> — approximate the zone attendees re-enter as they leave a venue at a given time</li>
+          <li><strong style={{color:'#cbd5e1'}}>Transmission spread</strong> — trace a plausible dispersal radius from a known patient-zero origin</li>
+        </ul>
 
         {!helpOnly && !importMode && (
           <>
@@ -281,7 +279,7 @@ function WelcomeLightbox({ onClose, onStart, helpOnly, initialDest, initialBudge
             </div>
             <div className="lightbox-actions welcome-actions">
               <button className="lightbox-btn" onClick={() => setImportMode(true)}>
-                &#128190; Import previous session
+                Import previous session
               </button>
               <button className="lightbox-btn primary" onClick={() => onStart({ dest, budget })}>
                 Get started &#8594;
@@ -747,7 +745,7 @@ export default function App() {
         </div>
       </nav>
 
-      <div style={{ display:'flex', flex:1, overflow:'hidden' }}>
+      <div className="app-body">
         <div className="side-panel">
           <div className="sp-section">
             <div className="sp-label">
@@ -821,7 +819,7 @@ export default function App() {
                           className={`pin-toggle-btn${isExpanded ? ' open' : ''}`}
                           onClick={() => setExpandedPinId(isExpanded ? null : pin.id)}
                           title={isExpanded ? 'Collapse' : 'Edit pin'}>
-                          {isExpanded ? '&#9650;' : '&#9660;'}
+                          {isExpanded ? '▲' : '▼'}
                         </button>
                       </div>
                       {isExpanded && (
@@ -856,7 +854,7 @@ export default function App() {
 
           <div className="sp-section">
             <button className="sp-toggle" onClick={() => setShowDistricts(v => !v)}>
-              Districts {showDistricts ? '&#9650;' : '&#9660;'}
+              Districts {showDistricts ? '▲' : '▼'}
             </button>
             {showDistricts && (
               <DistrictPanel sentiment={sentiment} onChange={(num,val) => setSentiment(p => ({...p,[num]:val}))} />
@@ -865,7 +863,23 @@ export default function App() {
         </div>
 
         <div ref={mapContainer} className="map-container" />
+
+        <div className="mobile-legend">
+          <div className="legend-row">
+            <span className="sw pos"/><span>Positive</span>
+            <span className="sw neg"/><span>Negative</span>
+            <span className="sw neu"/><span>Neutral</span>
+          </div>
+          <div className="lines-row">
+            {Object.entries(LINE_COLORS).filter(([k]) => k.startsWith('U')).map(([ref,color]) => (
+              <span key={ref} className="lbadge" style={{background:color}}>{ref}</span>
+            ))}
+            <span className="lbadge" style={{background:LINE_COLORS.tram}}>Tram</span>
+          </div>
+        </div>
       </div>
+
+      <div className="mobile-panel-title">Wiener Linien Transmission</div>
 
       {(lightbox?.mode === 'welcome' || lightbox?.mode === 'help') && (
         <WelcomeLightbox
