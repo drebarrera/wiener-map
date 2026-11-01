@@ -1,0 +1,8064 @@
+{
+  "1": {
+    "route_type": "tram",
+    "speed_kmh": 15,
+    "directions": {
+      "Prater Hauptallee": [
+        {
+          "id": "node/139140158",
+          "cum_km": 0.0,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2309659094",
+          "cum_km": 0.2853,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2309659049",
+          "cum_km": 0.5853,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2309659092",
+          "cum_km": 0.9384,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2309659184",
+          "cum_km": 1.1798,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2206792153",
+          "cum_km": 1.5879,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2206792132",
+          "cum_km": 2.038,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2213363753",
+          "cum_km": 2.4484,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2206818030",
+          "cum_km": 2.8937,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2297169719",
+          "cum_km": 3.2664,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2297169772",
+          "cum_km": 3.6012,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2049552776",
+          "cum_km": 3.9888,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/271334053",
+          "cum_km": 4.2047,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1625876647",
+          "cum_km": 4.5692,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1625876615",
+          "cum_km": 5.0389,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/66846522",
+          "cum_km": 5.4967,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2447277595",
+          "cum_km": 5.6564,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1625876754",
+          "cum_km": 5.8966,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/66846600",
+          "cum_km": 6.3035,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/317378484",
+          "cum_km": 6.6893,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/6088026506",
+          "cum_km": 7.1411,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2073338567",
+          "cum_km": 7.4813,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/314051546",
+          "cum_km": 7.9172,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2071872561",
+          "cum_km": 8.3158,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2423110619",
+          "cum_km": 8.5615,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2423061113",
+          "cum_km": 8.7809,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1606920930",
+          "cum_km": 9.1514,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2600415788",
+          "cum_km": 9.4338,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2600416017",
+          "cum_km": 9.845,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/62663065",
+          "cum_km": 10.508,
+          "snap_dist": 0.0
+        }
+      ],
+      "Stefan-Fadinger-Platz": [
+        {
+          "id": "node/1031140312",
+          "cum_km": 0.0,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2600416021",
+          "cum_km": 0.6417,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2600415779",
+          "cum_km": 0.9076,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1467083867",
+          "cum_km": 1.2846,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2423071605",
+          "cum_km": 1.5937,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2423061131",
+          "cum_km": 1.859,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/122544764",
+          "cum_km": 2.1872,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/413584564",
+          "cum_km": 2.5846,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1606920941",
+          "cum_km": 2.9535,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/559736595",
+          "cum_km": 3.3813,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/122505897",
+          "cum_km": 3.8584,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/218267419",
+          "cum_km": 4.1979,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1625876768",
+          "cum_km": 4.5617,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1021931446",
+          "cum_km": 4.7611,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/278312081",
+          "cum_km": 5.0356,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/314318440",
+          "cum_km": 5.4142,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1625876653",
+          "cum_km": 5.8881,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2525543991",
+          "cum_km": 6.0151,
+          "snap_dist": 4.42
+        },
+        {
+          "id": "node/2297169772",
+          "cum_km": 6.7014,
+          "snap_dist": 6.33
+        },
+        {
+          "id": "node/2503413064",
+          "cum_km": 7.2686,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2293821135",
+          "cum_km": 7.8475,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/274242683",
+          "cum_km": 8.1849,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1630528127",
+          "cum_km": 8.6511,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2208903487",
+          "cum_km": 9.0297,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2309659028",
+          "cum_km": 9.3049,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2309659107",
+          "cum_km": 9.6612,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2309659039",
+          "cum_km": 9.9563,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/139140158",
+          "cum_km": 10.4259,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2297169722",
+          "cum_km": 14.5109,
+          "snap_dist": 4.68
+        },
+        {
+          "id": "node/2049552768",
+          "cum_km": 15.4922,
+          "snap_dist": 0.99
+        }
+      ]
+    }
+  },
+  "O": {
+    "route_type": "tram",
+    "speed_kmh": 15,
+    "directions": {
+      "Raxstra\u00dfe": [
+        {
+          "id": "node/7881279866",
+          "cum_km": 0.0,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/7881279881",
+          "cum_km": 0.47,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/5646168479",
+          "cum_km": 0.7477,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2268593991",
+          "cum_km": 1.1447,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/7967198643",
+          "cum_km": 1.4362,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2268632128",
+          "cum_km": 1.9192,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2423063801",
+          "cum_km": 2.2229,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2423061131",
+          "cum_km": 2.4645,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2423105009",
+          "cum_km": 2.8503,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/84546994",
+          "cum_km": 3.0767,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/4348401660",
+          "cum_km": 3.1002,
+          "snap_dist": 12.0
+        },
+        {
+          "id": "node/2423166329",
+          "cum_km": 3.6812,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2423133564",
+          "cum_km": 3.9429,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2423133532",
+          "cum_km": 4.3691,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2423136146",
+          "cum_km": 4.8355,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2423195600",
+          "cum_km": 5.1293,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1600416485",
+          "cum_km": 5.5702,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1921934731",
+          "cum_km": 6.0226,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2252382321",
+          "cum_km": 6.4607,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2252382305",
+          "cum_km": 6.947,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2252382203",
+          "cum_km": 7.1604,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2252414313",
+          "cum_km": 7.6428,
+          "snap_dist": 4.67
+        },
+        {
+          "id": "node/2309695325",
+          "cum_km": 7.9898,
+          "snap_dist": 8.85
+        },
+        {
+          "id": "node/2309695321",
+          "cum_km": 8.3954,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1851011373",
+          "cum_km": 9.0816,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1401452810",
+          "cum_km": 9.1848,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2252414324",
+          "cum_km": 10.8774,
+          "snap_dist": 5.08
+        }
+      ],
+      "Bruno-Marek-Allee": [
+        {
+          "id": "node/1401452810",
+          "cum_km": 0.0,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2309695351",
+          "cum_km": 0.3477,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2309695325",
+          "cum_km": 0.7955,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2252414313",
+          "cum_km": 1.1515,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2252414324",
+          "cum_km": 1.2973,
+          "snap_dist": 7.15
+        },
+        {
+          "id": "node/1611095385",
+          "cum_km": 1.5349,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2252381998",
+          "cum_km": 1.9342,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2252382075",
+          "cum_km": 2.3323,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1008421989",
+          "cum_km": 2.7888,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1600416423",
+          "cum_km": 3.2615,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/84614127",
+          "cum_km": 3.5944,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2423166085",
+          "cum_km": 3.9143,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2423186967",
+          "cum_km": 4.2956,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2423185595",
+          "cum_km": 4.8067,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2423166239",
+          "cum_km": 5.1938,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2423138861",
+          "cum_km": 5.6554,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/4348401660",
+          "cum_km": 5.6948,
+          "snap_dist": 8.78
+        },
+        {
+          "id": "node/123613192",
+          "cum_km": 5.8626,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2423110100",
+          "cum_km": 6.2734,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2423061113",
+          "cum_km": 6.483,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2268632124",
+          "cum_km": 6.8804,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/413513765",
+          "cum_km": 7.3699,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/7881279866",
+          "cum_km": 9.1051,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/7881279882",
+          "cum_km": 9.9038,
+          "snap_dist": 8.82
+        },
+        {
+          "id": "node/2268583608",
+          "cum_km": 10.3038,
+          "snap_dist": 5.02
+        }
+      ]
+    }
+  },
+  "2": {
+    "route_type": "tram",
+    "speed_kmh": 15,
+    "directions": {
+      "Friedrich-Engels-Platz": [
+        {
+          "id": "node/910390102",
+          "cum_km": 0.0,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2571251392",
+          "cum_km": 0.4221,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2374840160",
+          "cum_km": 0.9518,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2374888083",
+          "cum_km": 1.4202,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2374872361",
+          "cum_km": 1.8478,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2374911132",
+          "cum_km": 2.299,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2223156317",
+          "cum_km": 2.591,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/314318408",
+          "cum_km": 3.0329,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/314318412",
+          "cum_km": 3.4333,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2285866895",
+          "cum_km": 3.7157,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/317367327",
+          "cum_km": 3.8225,
+          "snap_dist": 3.77
+        },
+        {
+          "id": "node/2212886641",
+          "cum_km": 4.0219,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2424050284",
+          "cum_km": 4.4036,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2287892316",
+          "cum_km": 4.818,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/278312081",
+          "cum_km": 5.508,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/314318440",
+          "cum_km": 5.8866,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1625876653",
+          "cum_km": 6.3605,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1631584636",
+          "cum_km": 6.8073,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1632991615",
+          "cum_km": 7.1519,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1632991612",
+          "cum_km": 7.5171,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1376346273",
+          "cum_km": 7.9666,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/413584554",
+          "cum_km": 8.4051,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2309451720",
+          "cum_km": 8.6422,
+          "snap_dist": 5.98
+        },
+        {
+          "id": "node/2309451663",
+          "cum_km": 8.8016,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2309451628",
+          "cum_km": 9.0162,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2309451622",
+          "cum_km": 9.3726,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2268606870",
+          "cum_km": 9.7421,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/314051535",
+          "cum_km": 10.1792,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2309403271",
+          "cum_km": 10.5556,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2269635414",
+          "cum_km": 10.9831,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/314051524",
+          "cum_km": 11.8906,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/314051503",
+          "cum_km": 12.7186,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1617948514",
+          "cum_km": 13.4975,
+          "snap_dist": 3.88
+        }
+      ],
+      "Dornbach": [
+        {
+          "id": "node/314051503",
+          "cum_km": 0.0,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/294453907",
+          "cum_km": 0.1857,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/314051520",
+          "cum_km": 0.7011,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2269598829",
+          "cum_km": 1.0494,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2269635430",
+          "cum_km": 1.5207,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2269635407",
+          "cum_km": 1.9312,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2309411836",
+          "cum_km": 2.2428,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2268577453",
+          "cum_km": 2.7341,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2268606856",
+          "cum_km": 3.0533,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2309451673",
+          "cum_km": 3.438,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2309451609",
+          "cum_km": 3.8082,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2309451663",
+          "cum_km": 4.0588,
+          "snap_dist": 10.17
+        },
+        {
+          "id": "node/2309451720",
+          "cum_km": 4.2353,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/314051546",
+          "cum_km": 4.4972,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/314051552",
+          "cum_km": 4.9321,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/66846547",
+          "cum_km": 5.3682,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1632991617",
+          "cum_km": 5.6631,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/66846538",
+          "cum_km": 6.0589,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1625876647",
+          "cum_km": 6.4244,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1625876615",
+          "cum_km": 6.8941,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/66846522",
+          "cum_km": 7.3519,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2447277595",
+          "cum_km": 7.5116,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2287892314",
+          "cum_km": 7.9114,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2424050251",
+          "cum_km": 8.3834,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1398165331",
+          "cum_km": 8.7499,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/317367327",
+          "cum_km": 9.0257,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2285866933",
+          "cum_km": 9.1649,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2423362002",
+          "cum_km": 9.3761,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2423362003",
+          "cum_km": 9.7461,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2423365127",
+          "cum_km": 10.2563,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2374853656",
+          "cum_km": 10.5352,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2374853683",
+          "cum_km": 11.4221,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2374853688",
+          "cum_km": 11.8661,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2571251392",
+          "cum_km": 12.4535,
+          "snap_dist": 5.75
+        },
+        {
+          "id": "node/291164503",
+          "cum_km": 13.0138,
+          "snap_dist": 2.71
+        },
+        {
+          "id": "node/910390102",
+          "cum_km": 13.1194,
+          "snap_dist": 3.17
+        }
+      ]
+    }
+  },
+  "U4": {
+    "route_type": "subway",
+    "speed_kmh": 35,
+    "directions": {
+      "H\u00fctteldorf": [
+        {
+          "id": "node/1418491819",
+          "cum_km": 0.0,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1418491847",
+          "cum_km": 1.5988,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1418491823",
+          "cum_km": 2.4841,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2525501897",
+          "cum_km": 3.1802,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/598192261",
+          "cum_km": 3.9268,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1606920941",
+          "cum_km": 4.2747,
+          "snap_dist": 11.47
+        },
+        {
+          "id": "node/4180358900",
+          "cum_km": 4.6892,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/69461745",
+          "cum_km": 5.5376,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/60475645",
+          "cum_km": 6.155,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/3993342688",
+          "cum_km": 7.0608,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/69556621",
+          "cum_km": 8.0582,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/60475940",
+          "cum_km": 8.7172,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1352828684",
+          "cum_km": 9.7025,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/66488892",
+          "cum_km": 10.4585,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/60476152",
+          "cum_km": 11.0208,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/61276349",
+          "cum_km": 11.7376,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/60476139",
+          "cum_km": 12.8279,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/60476136",
+          "cum_km": 13.5082,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/60476133",
+          "cum_km": 14.2625,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/69577600",
+          "cum_km": 15.0025,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/317259822",
+          "cum_km": 16.3343,
+          "snap_dist": 0.0
+        }
+      ],
+      "Heiligenstadt": [
+        {
+          "id": "node/1740822565",
+          "cum_km": 0.0,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1243190451",
+          "cum_km": 1.3317,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1243190167",
+          "cum_km": 2.071,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1243189782",
+          "cum_km": 2.8249,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1243190081",
+          "cum_km": 3.5061,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1243189796",
+          "cum_km": 4.5959,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1243190224",
+          "cum_km": 5.3186,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2241469646",
+          "cum_km": 5.8846,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2214978287",
+          "cum_km": 6.6384,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2241739000",
+          "cum_km": 7.6273,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2241738995",
+          "cum_km": 8.2834,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2028498703",
+          "cum_km": 9.2733,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/3966904573",
+          "cum_km": 10.1826,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/4003949408",
+          "cum_km": 10.8002,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/4180381098",
+          "cum_km": 11.6572,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/4003950034",
+          "cum_km": 12.4153,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2525501991",
+          "cum_km": 13.1582,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/60291628",
+          "cum_km": 13.8559,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/60291638",
+          "cum_km": 14.7341,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/105411815",
+          "cum_km": 16.3269,
+          "snap_dist": 0.0
+        }
+      ]
+    }
+  },
+  "U1": {
+    "route_type": "subway",
+    "speed_kmh": 35,
+    "directions": {
+      "Oberlaa": [
+        {
+          "id": "node/4140441196",
+          "cum_km": 0.0,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/4140649494",
+          "cum_km": 0.9655,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/60090913",
+          "cum_km": 1.8768,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/60090912",
+          "cum_km": 2.5487,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/4155669389",
+          "cum_km": 3.496,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/4160839989",
+          "cum_km": 4.6254,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/4161110390",
+          "cum_km": 5.4261,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2258520260",
+          "cum_km": 6.2912,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/57590686",
+          "cum_km": 6.8488,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/57590685",
+          "cum_km": 7.8354,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/446001579",
+          "cum_km": 8.5721,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/57590683",
+          "cum_km": 9.3305,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2525507021",
+          "cum_km": 10.0321,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2440473862",
+          "cum_km": 10.6114,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2525543992",
+          "cum_km": 11.4254,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2049552768",
+          "cum_km": 11.7885,
+          "snap_dist": 14.18
+        },
+        {
+          "id": "node/2671750971",
+          "cum_km": 12.3846,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2671750970",
+          "cum_km": 13.1465,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/4167184428",
+          "cum_km": 14.0322,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/4167184438",
+          "cum_km": 14.5383,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/5057951094",
+          "cum_km": 15.2222,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/5057951096",
+          "cum_km": 16.0026,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/5018582557",
+          "cum_km": 16.9657,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/5016149163",
+          "cum_km": 17.9672,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/4725643934",
+          "cum_km": 19.0935,
+          "snap_dist": 0.0
+        }
+      ],
+      "Leopoldau": [
+        {
+          "id": "node/4725643935",
+          "cum_km": 0.0,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/5016149162",
+          "cum_km": 1.1263,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/5018582556",
+          "cum_km": 2.1218,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/5057951095",
+          "cum_km": 3.0939,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/5057951093",
+          "cum_km": 3.8725,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1862342812",
+          "cum_km": 4.5567,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/60825796",
+          "cum_km": 5.063,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1625876777",
+          "cum_km": 5.8105,
+          "snap_dist": 10.64
+        },
+        {
+          "id": "node/1010572279",
+          "cum_km": 5.9491,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/59838615",
+          "cum_km": 6.7133,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2049552776",
+          "cum_km": 7.3557,
+          "snap_dist": 15.99
+        },
+        {
+          "id": "node/2525543991",
+          "cum_km": 7.6457,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1993538250",
+          "cum_km": 8.4549,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1399692389",
+          "cum_km": 9.0167,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/4169992592",
+          "cum_km": 9.7252,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/3725915785",
+          "cum_km": 10.479,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/4169762802",
+          "cum_km": 11.2172,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/4169472789",
+          "cum_km": 12.2037,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/57592307",
+          "cum_km": 12.7631,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/57592312",
+          "cum_km": 13.6291,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/57592315",
+          "cum_km": 14.4295,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/61077005",
+          "cum_km": 15.5652,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2781801317",
+          "cum_km": 16.512,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2781800961",
+          "cum_km": 17.186,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/4140676594",
+          "cum_km": 18.0995,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/4140441195",
+          "cum_km": 19.047,
+          "snap_dist": 0.0
+        }
+      ]
+    }
+  },
+  "71": {
+    "route_type": "tram",
+    "speed_kmh": 15,
+    "directions": {
+      "Schottenring": [
+        {
+          "id": "node/62650716",
+          "cum_km": 0.0,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2250845416",
+          "cum_km": 0.0,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2213420240",
+          "cum_km": 0.4217,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2213420202",
+          "cum_km": 0.7498,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2213420122",
+          "cum_km": 1.3082,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2213420101",
+          "cum_km": 1.6646,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2250845352",
+          "cum_km": 2.1155,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2250845415",
+          "cum_km": 2.341,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2250845308",
+          "cum_km": 2.9358,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2250845400",
+          "cum_km": 3.7366,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2250845310",
+          "cum_km": 4.2394,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/8274978600",
+          "cum_km": 4.7767,
+          "snap_dist": 5.94
+        },
+        {
+          "id": "node/2213481886",
+          "cum_km": 4.9507,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2213481879",
+          "cum_km": 5.3961,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2213481882",
+          "cum_km": 5.5437,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2177208270",
+          "cum_km": 5.8561,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/117497588",
+          "cum_km": 6.3419,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/117467766",
+          "cum_km": 6.6149,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/117459399",
+          "cum_km": 6.9172,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/117439695",
+          "cum_km": 7.3076,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/62645839",
+          "cum_km": 7.9148,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/62638506",
+          "cum_km": 8.406,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/62638511",
+          "cum_km": 8.8334,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1086311922",
+          "cum_km": 9.1017,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/115117812",
+          "cum_km": 9.5656,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/111897837",
+          "cum_km": 9.9544,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/66857964",
+          "cum_km": 10.3108,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1625876647",
+          "cum_km": 10.7038,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/66846522",
+          "cum_km": 11.6313,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2447277595",
+          "cum_km": 11.791,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1625876754",
+          "cum_km": 12.0312,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/317378484",
+          "cum_km": 12.8238,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/8778246146",
+          "cum_km": 13.3315,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/66846600",
+          "cum_km": 14.4224,
+          "snap_dist": 1.34
+        },
+        {
+          "id": "node/1625876615",
+          "cum_km": 16.0651,
+          "snap_dist": 6.7
+        }
+      ],
+      "Kaiserebersdorf, Zinnergasse": [
+        {
+          "id": "node/8778246146",
+          "cum_km": 0.0,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2250845416",
+          "cum_km": 0.0,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/122505897",
+          "cum_km": 0.6779,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/218267419",
+          "cum_km": 1.0174,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1625876768",
+          "cum_km": 1.3812,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1021931446",
+          "cum_km": 1.5806,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/278312081",
+          "cum_km": 1.8551,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/314318440",
+          "cum_km": 2.2337,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1625876653",
+          "cum_km": 2.7076,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/66857971",
+          "cum_km": 3.2035,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2223283829",
+          "cum_km": 3.5151,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2177208394",
+          "cum_km": 3.8553,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2177208344",
+          "cum_km": 4.3173,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2177208377",
+          "cum_km": 4.6362,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2223283832",
+          "cum_km": 5.0648,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2177208371",
+          "cum_km": 5.5992,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2223283830",
+          "cum_km": 6.3048,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2223283831",
+          "cum_km": 6.495,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2177208369",
+          "cum_km": 6.8511,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2177208341",
+          "cum_km": 7.0787,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/62645831",
+          "cum_km": 7.5315,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2213481897",
+          "cum_km": 7.8688,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/117526485",
+          "cum_km": 8.114,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2213481898",
+          "cum_km": 8.5848,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/8274978600",
+          "cum_km": 8.6894,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2213481889",
+          "cum_km": 9.1785,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/62647432",
+          "cum_km": 9.7086,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2250845308",
+          "cum_km": 10.5319,
+          "snap_dist": 4.55
+        },
+        {
+          "id": "node/62648152",
+          "cum_km": 11.1538,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/62650734",
+          "cum_km": 11.8174,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/62650722",
+          "cum_km": 12.6358,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/327193185",
+          "cum_km": 13.0547,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/62650716",
+          "cum_km": 13.351,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/62650728",
+          "cum_km": 14.8519,
+          "snap_dist": 2.46
+        },
+        {
+          "id": "node/2250845317",
+          "cum_km": 15.5975,
+          "snap_dist": 17.51
+        },
+        {
+          "id": "node/2250845514",
+          "cum_km": 16.7494,
+          "snap_dist": 4.89
+        }
+      ],
+      "Hauptwerkst\u00e4tte": [
+        {
+          "id": "node/8778246146",
+          "cum_km": 0.0,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/559736595",
+          "cum_km": 0.2008,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/122505897",
+          "cum_km": 0.6779,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/218267419",
+          "cum_km": 1.0174,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1625876768",
+          "cum_km": 1.3812,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1021931446",
+          "cum_km": 1.5806,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/278312081",
+          "cum_km": 1.8551,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/314318440",
+          "cum_km": 2.2337,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1625876653",
+          "cum_km": 2.7076,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/66857971",
+          "cum_km": 3.2035,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2223283829",
+          "cum_km": 3.5151,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2177208394",
+          "cum_km": 3.8553,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2177208344",
+          "cum_km": 4.3173,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2177208377",
+          "cum_km": 4.6362,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2223283832",
+          "cum_km": 5.0648,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2177208371",
+          "cum_km": 5.5992,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2223283830",
+          "cum_km": 6.3048,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2223283831",
+          "cum_km": 6.495,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2177208369",
+          "cum_km": 6.8511,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2177208341",
+          "cum_km": 7.0787,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/62645831",
+          "cum_km": 7.5315,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2213481897",
+          "cum_km": 7.8688,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/117526485",
+          "cum_km": 8.114,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2213481898",
+          "cum_km": 8.5848,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/8274978600",
+          "cum_km": 8.6894,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2250845400",
+          "cum_km": 9.729,
+          "snap_dist": 5.01
+        },
+        {
+          "id": "node/2250845514",
+          "cum_km": 10.4701,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/62648152",
+          "cum_km": 11.1538,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2250845352",
+          "cum_km": 11.3522,
+          "snap_dist": 4.4
+        },
+        {
+          "id": "node/6707844824",
+          "cum_km": 11.6902,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2213481889",
+          "cum_km": 14.5895,
+          "snap_dist": 2.32
+        }
+      ]
+    }
+  },
+  "U2": {
+    "route_type": "subway",
+    "speed_kmh": 35,
+    "directions": {
+      "Seestadt": [
+        {
+          "id": "node/2216387626",
+          "cum_km": 0.0,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/4123328189",
+          "cum_km": 0.668,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2216387652",
+          "cum_km": 1.0164,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2216387623",
+          "cum_km": 1.6018,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2213581868",
+          "cum_km": 2.1561,
+          "snap_dist": 6.77
+        },
+        {
+          "id": "node/2216387644",
+          "cum_km": 2.6361,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2525338265",
+          "cum_km": 3.4136,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/62667240",
+          "cum_km": 4.0931,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2525171816",
+          "cum_km": 5.0285,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2525408826",
+          "cum_km": 5.8588,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/62671827",
+          "cum_km": 6.6308,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1570802247",
+          "cum_km": 7.3189,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/62671836",
+          "cum_km": 8.4115,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/69389284",
+          "cum_km": 9.2949,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/69391819",
+          "cum_km": 10.4496,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/69393189",
+          "cum_km": 11.0865,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/68187430",
+          "cum_km": 11.767,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/68187437",
+          "cum_km": 12.5804,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/13155134491",
+          "cum_km": 13.2896,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/486237352",
+          "cum_km": 14.1524,
+          "snap_dist": 0.0
+        }
+      ],
+      "Karlsplatz": [
+        {
+          "id": "node/2437875978",
+          "cum_km": 2.6966,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/13155134490",
+          "cum_km": 3.5516,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2298795030",
+          "cum_km": 4.2608,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2249118991",
+          "cum_km": 5.0661,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2249118767",
+          "cum_km": 5.7475,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2249118893",
+          "cum_km": 6.3907,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2298795031",
+          "cum_km": 7.5545,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2482900070",
+          "cum_km": 8.4364,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/62671830",
+          "cum_km": 9.5075,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2298795032",
+          "cum_km": 10.1992,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2525408827",
+          "cum_km": 10.9731,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2525171817",
+          "cum_km": 11.8005,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/3378037094",
+          "cum_km": 12.7582,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2525338266",
+          "cum_km": 13.4523,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/60290336",
+          "cum_km": 14.2118,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2213581868",
+          "cum_km": 14.6889,
+          "snap_dist": 19.15
+        },
+        {
+          "id": "node/2006335300",
+          "cum_km": 15.1573,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/4123328089",
+          "cum_km": 16.2368,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2769148692",
+          "cum_km": 17.1167,
+          "snap_dist": 1.95
+        },
+        {
+          "id": "node/2216387652",
+          "cum_km": 18.463,
+          "snap_dist": 11.22
+        }
+      ]
+    }
+  },
+  "31": {
+    "route_type": "tram",
+    "speed_kmh": 15,
+    "directions": {
+      "Stammersdorf": [
+        {
+          "id": "node/57520639",
+          "cum_km": 0.0,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/307641623",
+          "cum_km": 0.3974,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/307641624",
+          "cum_km": 0.8179,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/307641619",
+          "cum_km": 1.3687,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2590173870",
+          "cum_km": 1.6662,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2590173861",
+          "cum_km": 2.0485,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2589660441",
+          "cum_km": 2.5777,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2269618023",
+          "cum_km": 2.8743,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/60296237",
+          "cum_km": 3.4619,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1618109023",
+          "cum_km": 4.1013,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1618109021",
+          "cum_km": 4.8607,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1598469735",
+          "cum_km": 5.2731,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1618109024",
+          "cum_km": 5.742,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/60296274",
+          "cum_km": 6.2616,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1597323835",
+          "cum_km": 6.8301,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1597326599",
+          "cum_km": 7.2156,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1618098121",
+          "cum_km": 7.6856,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/304752488",
+          "cum_km": 7.9742,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/60296294",
+          "cum_km": 8.6432,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/60296296",
+          "cum_km": 9.0954,
+          "snap_dist": 6.74
+        },
+        {
+          "id": "node/1618098133",
+          "cum_km": 9.4561,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/266266191",
+          "cum_km": 9.7453,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1399437919",
+          "cum_km": 10.6521,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/320515997",
+          "cum_km": 11.1588,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/266266233",
+          "cum_km": 12.5828,
+          "snap_dist": 4.27
+        }
+      ],
+      "Schottenring": [
+        {
+          "id": "node/320515997",
+          "cum_km": 0.0,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/320516510",
+          "cum_km": 0.8102,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1618098116",
+          "cum_km": 1.2498,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1399437834",
+          "cum_km": 1.5524,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/299013520",
+          "cum_km": 1.9222,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/60296296",
+          "cum_km": 2.2561,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1597339181",
+          "cum_km": 2.7202,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1399437918",
+          "cum_km": 3.2969,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/60296288",
+          "cum_km": 3.7241,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/60296286",
+          "cum_km": 4.1296,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1597324678",
+          "cum_km": 4.3976,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1618098129",
+          "cum_km": 5.1469,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1618109025",
+          "cum_km": 5.6662,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1598469760",
+          "cum_km": 6.0697,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1618109022",
+          "cum_km": 6.4386,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/294453907",
+          "cum_km": 7.2731,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/314051520",
+          "cum_km": 7.7885,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2590173861",
+          "cum_km": 9.3046,
+          "snap_dist": 6.72
+        },
+        {
+          "id": "node/2590173856",
+          "cum_km": 9.873,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2471354104",
+          "cum_km": 10.9602,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2073338569",
+          "cum_km": 11.347,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2471354116",
+          "cum_km": 12.2907,
+          "snap_dist": 11.85
+        },
+        {
+          "id": "node/2590173874",
+          "cum_km": 13.3759,
+          "snap_dist": 2.79
+        },
+        {
+          "id": "node/60296228",
+          "cum_km": 14.3454,
+          "snap_dist": 1.76
+        },
+        {
+          "id": "node/2269618032",
+          "cum_km": 14.7153,
+          "snap_dist": 3.65
+        }
+      ]
+    }
+  },
+  "D": {
+    "route_type": "tram",
+    "speed_kmh": 15,
+    "directions": {
+      "Nu\u00dfdorf Beethovengang": [
+        {
+          "id": "node/6817946982",
+          "cum_km": 0.0,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/6739913729",
+          "cum_km": 0.6715,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/6739913727",
+          "cum_km": 1.0377,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2969670952",
+          "cum_km": 1.3253,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/66859499",
+          "cum_km": 1.7524,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1617706063",
+          "cum_km": 2.2291,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1617706060",
+          "cum_km": 2.5589,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/66858431",
+          "cum_km": 3.0138,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/66857964",
+          "cum_km": 3.3593,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1625876647",
+          "cum_km": 3.7523,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1625876615",
+          "cum_km": 4.222,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/66846522",
+          "cum_km": 4.6798,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2447277595",
+          "cum_km": 4.8395,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1625876754",
+          "cum_km": 5.0797,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/66846600",
+          "cum_km": 5.4866,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/317378484",
+          "cum_km": 5.8724,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2216258714",
+          "cum_km": 6.2536,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2296881906",
+          "cum_km": 6.6078,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2296881892",
+          "cum_km": 6.8633,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/68203671",
+          "cum_km": 7.2292,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2294764550",
+          "cum_km": 7.6004,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/4885618416",
+          "cum_km": 7.8299,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2292909372",
+          "cum_km": 8.1312,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2294709308",
+          "cum_km": 8.5399,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2459048990",
+          "cum_km": 9.5448,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2216216923",
+          "cum_km": 10.0386,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2216217003",
+          "cum_km": 10.3785,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1856057033",
+          "cum_km": 11.1491,
+          "snap_dist": 6.95
+        },
+        {
+          "id": "node/2216225705",
+          "cum_km": 11.3843,
+          "snap_dist": 3.12
+        },
+        {
+          "id": "node/2216217000",
+          "cum_km": 12.9899,
+          "snap_dist": 4.6
+        },
+        {
+          "id": "node/2294709282",
+          "cum_km": 14.9032,
+          "snap_dist": 4.39
+        }
+      ],
+      "Absberggasse": [
+        {
+          "id": "node/2216225705",
+          "cum_km": 0.3186,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1856057033",
+          "cum_km": 0.5533,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1341594873",
+          "cum_km": 0.9997,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2216216970",
+          "cum_km": 1.2723,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1617676077",
+          "cum_km": 1.6138,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2216216980",
+          "cum_km": 2.0774,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2294709285",
+          "cum_km": 2.572,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2294709324",
+          "cum_km": 3.168,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/33301908",
+          "cum_km": 3.5609,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2216232248",
+          "cum_km": 3.8468,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2294764661",
+          "cum_km": 4.0542,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2216243307",
+          "cum_km": 4.473,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2296881837",
+          "cum_km": 4.8098,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2296881890",
+          "cum_km": 5.0316,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2216258689",
+          "cum_km": 5.4448,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/122505897",
+          "cum_km": 5.8622,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/218267419",
+          "cum_km": 6.2017,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1625876768",
+          "cum_km": 6.5654,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1021931446",
+          "cum_km": 6.7648,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/278312081",
+          "cum_km": 7.0394,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/314318440",
+          "cum_km": 7.418,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1625876653",
+          "cum_km": 7.8919,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/66857971",
+          "cum_km": 8.3877,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1617706059",
+          "cum_km": 8.7967,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1617706061",
+          "cum_km": 9.0888,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1617706063",
+          "cum_km": 9.4692,
+          "snap_dist": 6.18
+        },
+        {
+          "id": "node/6739913728",
+          "cum_km": 10.6686,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/6739913730",
+          "cum_km": 11.0309,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1921462799",
+          "cum_km": 11.6606,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2969670953",
+          "cum_km": 13.2847,
+          "snap_dist": 6.58
+        },
+        {
+          "id": "node/66859499",
+          "cum_km": 13.6263,
+          "snap_dist": 9.32
+        }
+      ]
+    }
+  },
+  "38": {
+    "route_type": "tram",
+    "speed_kmh": 15,
+    "directions": {
+      "Schottentor": [
+        {
+          "id": "node/279014554",
+          "cum_km": 0.0,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2297004225",
+          "cum_km": 0.279,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2297012864",
+          "cum_km": 0.7251,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2297004287",
+          "cum_km": 1.023,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2291832175",
+          "cum_km": 1.2596,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2297050717",
+          "cum_km": 1.6317,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2297050823",
+          "cum_km": 1.9945,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2297084730",
+          "cum_km": 2.2653,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2296971142",
+          "cum_km": 2.8605,
+          "snap_dist": 3.09
+        },
+        {
+          "id": "node/2296971140",
+          "cum_km": 2.9304,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2296929384",
+          "cum_km": 3.4068,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2296929379",
+          "cum_km": 3.7653,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1374418164",
+          "cum_km": 4.0574,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2291874222",
+          "cum_km": 4.7809,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/68162192",
+          "cum_km": 5.3249,
+          "snap_dist": 0.38
+        },
+        {
+          "id": "node/291169172",
+          "cum_km": 5.3307,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2291874259",
+          "cum_km": 6.4955,
+          "snap_dist": 7.96
+        }
+      ],
+      "Grinzing": [
+        {
+          "id": "node/291169172",
+          "cum_km": 0.0,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2291874197",
+          "cum_km": 0.3871,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2291874259",
+          "cum_km": 0.948,
+          "snap_dist": 16.47
+        },
+        {
+          "id": "node/2291874204",
+          "cum_km": 1.1068,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2296929412",
+          "cum_km": 1.5419,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2296929375",
+          "cum_km": 1.8012,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2296929453",
+          "cum_km": 2.1765,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2296971142",
+          "cum_km": 2.3802,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2297084659",
+          "cum_km": 2.9164,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2297050911",
+          "cum_km": 3.1592,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2297050651",
+          "cum_km": 3.6255,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2291832175",
+          "cum_km": 3.9818,
+          "snap_dist": 2.97
+        },
+        {
+          "id": "node/2297012881",
+          "cum_km": 4.2254,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2297021838",
+          "cum_km": 4.5065,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2297021844",
+          "cum_km": 4.9132,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/279014554",
+          "cum_km": 5.3748,
+          "snap_dist": 0.0
+        }
+      ]
+    }
+  },
+  "43": {
+    "route_type": "tram",
+    "speed_kmh": 15,
+    "directions": {
+      "Schottentor": [
+        {
+          "id": "node/320193080",
+          "cum_km": 0.0,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2571241697",
+          "cum_km": 0.4935,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2571241755",
+          "cum_km": 1.0641,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2216561941",
+          "cum_km": 1.6286,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2216561981",
+          "cum_km": 2.1834,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2213509273",
+          "cum_km": 2.7402,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2216530089",
+          "cum_km": 3.2241,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/217826075",
+          "cum_km": 3.6606,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/68169454",
+          "cum_km": 3.9548,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/218186716",
+          "cum_km": 4.3643,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2218418408",
+          "cum_km": 4.9781,
+          "snap_dist": 3.95
+        },
+        {
+          "id": "node/2213581868",
+          "cum_km": 5.623,
+          "snap_dist": 15.28
+        },
+        {
+          "id": "node/68162192",
+          "cum_km": 5.9691,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2218418412",
+          "cum_km": 7.2203,
+          "snap_dist": 1.66
+        },
+        {
+          "id": "node/2218418420",
+          "cum_km": 7.7319,
+          "snap_dist": 3.28
+        }
+      ],
+      "Neuwaldegg": [
+        {
+          "id": "node/68162192",
+          "cum_km": 0.0,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2213581868",
+          "cum_km": 0.408,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2268547155",
+          "cum_km": 0.8453,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2218418408",
+          "cum_km": 1.0407,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2218418427",
+          "cum_km": 1.2183,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2216471181",
+          "cum_km": 1.6517,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2216471149",
+          "cum_km": 2.0604,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2216471235",
+          "cum_km": 2.4241,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2216530088",
+          "cum_km": 2.8041,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/68175575",
+          "cum_km": 3.275,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/217778912",
+          "cum_km": 3.8321,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/291164264",
+          "cum_km": 4.4235,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2571241755",
+          "cum_km": 4.9462,
+          "snap_dist": 3.29
+        },
+        {
+          "id": "node/2571241694",
+          "cum_km": 5.501,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/320193080",
+          "cum_km": 6.0086,
+          "snap_dist": 0.0
+        }
+      ]
+    }
+  },
+  "44": {
+    "route_type": "tram",
+    "speed_kmh": 15,
+    "directions": {
+      "Schottentor": [
+        {
+          "id": "node/5037105802",
+          "cum_km": 0.0,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2285898232",
+          "cum_km": 0.6034,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2287912383",
+          "cum_km": 0.8834,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2287912393",
+          "cum_km": 1.1936,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2285936791",
+          "cum_km": 1.6836,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2285927340",
+          "cum_km": 1.9686,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2424027812",
+          "cum_km": 2.4521,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2424027829",
+          "cum_km": 2.8269,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2424027842",
+          "cum_km": 3.218,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/218263990",
+          "cum_km": 3.9698,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/68162192",
+          "cum_km": 4.4629,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2218418412",
+          "cum_km": 5.7141,
+          "snap_dist": 1.66
+        },
+        {
+          "id": "node/2218418417",
+          "cum_km": 5.9373,
+          "snap_dist": 8.81
+        }
+      ],
+      "Maroltingergasse": [
+        {
+          "id": "node/68162192",
+          "cum_km": 0.0,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2213581868",
+          "cum_km": 0.408,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2268547155",
+          "cum_km": 0.8453,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2218418408",
+          "cum_km": 1.0407,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2218418427",
+          "cum_km": 1.2183,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2424025077",
+          "cum_km": 1.5675,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/3904305963",
+          "cum_km": 1.9802,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2285927365",
+          "cum_km": 2.503,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2285927393",
+          "cum_km": 2.6925,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2287912351",
+          "cum_km": 3.234,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2287912383",
+          "cum_km": 3.6259,
+          "snap_dist": 3.16
+        },
+        {
+          "id": "node/5037105802",
+          "cum_km": 4.3129,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/33241010",
+          "cum_km": 4.6323,
+          "snap_dist": 1.54
+        },
+        {
+          "id": "node/1399567987",
+          "cum_km": 4.8957,
+          "snap_dist": 8.7
+        }
+      ]
+    }
+  },
+  "37": {
+    "route_type": "tram",
+    "speed_kmh": 15,
+    "directions": {
+      "Schottentor": [
+        {
+          "id": "node/60739232",
+          "cum_km": 0.0,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2472336437",
+          "cum_km": 0.2237,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2472334906",
+          "cum_km": 0.7293,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/4720618025",
+          "cum_km": 1.1205,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/294835623",
+          "cum_km": 1.3824,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/294835619",
+          "cum_km": 1.6593,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2297106573",
+          "cum_km": 2.0037,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2296971140",
+          "cum_km": 2.1586,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2296929384",
+          "cum_km": 2.635,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2296929379",
+          "cum_km": 2.9936,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2291874222",
+          "cum_km": 4.0092,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/291169172",
+          "cum_km": 4.5589,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2291874259",
+          "cum_km": 5.7238,
+          "snap_dist": 7.96
+        },
+        {
+          "id": "node/1374418164",
+          "cum_km": 6.1508,
+          "snap_dist": 2.02
+        }
+      ],
+      "Hohe Warte": [
+        {
+          "id": "node/291169172",
+          "cum_km": 0.0,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2291874197",
+          "cum_km": 0.3871,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2291874259",
+          "cum_km": 0.948,
+          "snap_dist": 16.47
+        },
+        {
+          "id": "node/2291874204",
+          "cum_km": 1.1068,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2296929412",
+          "cum_km": 1.5419,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2296929375",
+          "cum_km": 1.8012,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2296929453",
+          "cum_km": 2.1765,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2296971142",
+          "cum_km": 2.3802,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/294835616",
+          "cum_km": 2.765,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/294835626",
+          "cum_km": 3.0389,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/294835633",
+          "cum_km": 3.2999,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2472333768",
+          "cum_km": 3.6799,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2472333820",
+          "cum_km": 4.184,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2472336436",
+          "cum_km": 4.4828,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/3841252655",
+          "cum_km": 4.9427,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/60739232",
+          "cum_km": 5.0538,
+          "snap_dist": 0.0
+        }
+      ]
+    }
+  },
+  "40": {
+    "route_type": "tram",
+    "speed_kmh": 15,
+    "directions": {
+      "Schottentor": [
+        {
+          "id": "node/2412012377",
+          "cum_km": 0.0,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2411943915",
+          "cum_km": 0.5151,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2292452224",
+          "cum_km": 0.9385,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2291824101",
+          "cum_km": 1.261,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2291824163",
+          "cum_km": 1.5767,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/287913310",
+          "cum_km": 2.0488,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2423476782",
+          "cum_km": 2.2691,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2309799473",
+          "cum_km": 2.6751,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2291874223",
+          "cum_km": 3.0456,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2291874222",
+          "cum_km": 3.7534,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/291169172",
+          "cum_km": 4.3031,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2291874259",
+          "cum_km": 5.4679,
+          "snap_dist": 7.96
+        }
+      ],
+      "Gersthof, Herbeckstra\u00dfe": [
+        {
+          "id": "node/291169172",
+          "cum_km": 0.0,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2291874197",
+          "cum_km": 0.3871,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2291874259",
+          "cum_km": 0.948,
+          "snap_dist": 16.47
+        },
+        {
+          "id": "node/2291874204",
+          "cum_km": 1.1068,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2309799469",
+          "cum_km": 1.5576,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2423479541",
+          "cum_km": 1.9131,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2423487885",
+          "cum_km": 2.0817,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2423474406",
+          "cum_km": 2.5555,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2291824113",
+          "cum_km": 3.012,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/253233651",
+          "cum_km": 3.2761,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2411950477",
+          "cum_km": 3.4451,
+          "snap_dist": 3.96
+        },
+        {
+          "id": "node/2411984884",
+          "cum_km": 3.6512,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/252512579",
+          "cum_km": 4.3525,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2412003471",
+          "cum_km": 4.8098,
+          "snap_dist": 2.38
+        },
+        {
+          "id": "node/252511595",
+          "cum_km": 5.5418,
+          "snap_dist": 17.32
+        }
+      ]
+    }
+  },
+  "41": {
+    "route_type": "tram",
+    "speed_kmh": 15,
+    "directions": {
+      "Schottentor": [
+        {
+          "id": "node/280364854",
+          "cum_km": 0.0,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/251207373",
+          "cum_km": 0.5603,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2719656492",
+          "cum_km": 1.0014,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2291824122",
+          "cum_km": 1.3647,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2292452224",
+          "cum_km": 1.7998,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2291824101",
+          "cum_km": 2.1222,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2291824163",
+          "cum_km": 2.438,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/287913310",
+          "cum_km": 2.91,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2423476782",
+          "cum_km": 3.1303,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2309799473",
+          "cum_km": 3.5363,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2291874259",
+          "cum_km": 4.1438,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2291874222",
+          "cum_km": 4.6146,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/291169172",
+          "cum_km": 5.1644,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2291874223",
+          "cum_km": 6.7299,
+          "snap_dist": 11.03
+        }
+      ],
+      "P\u00f6tzleinsdorf": [
+        {
+          "id": "node/291169172",
+          "cum_km": 0.0,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2291874197",
+          "cum_km": 0.3871,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2291874259",
+          "cum_km": 0.948,
+          "snap_dist": 16.47
+        },
+        {
+          "id": "node/2291874204",
+          "cum_km": 1.1068,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2309799469",
+          "cum_km": 1.5576,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2423479541",
+          "cum_km": 1.9131,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2423487885",
+          "cum_km": 2.0817,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2423474406",
+          "cum_km": 2.5555,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2291824113",
+          "cum_km": 3.012,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/251207350",
+          "cum_km": 3.2802,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2291824140",
+          "cum_km": 3.7078,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2719656492",
+          "cum_km": 4.0878,
+          "snap_dist": 13.92
+        },
+        {
+          "id": "node/2172305364",
+          "cum_km": 4.4856,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/280364859",
+          "cum_km": 5.0819,
+          "snap_dist": 0.0
+        }
+      ]
+    }
+  },
+  "42": {
+    "route_type": "tram",
+    "speed_kmh": 15,
+    "directions": {
+      "Schottentor": [
+        {
+          "id": "node/2286020609",
+          "cum_km": 0.0,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2407328495",
+          "cum_km": 0.1622,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/269541925",
+          "cum_km": 0.3925,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/7894841336",
+          "cum_km": 0.6002,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/7873776086",
+          "cum_km": 0.8951,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2592693141",
+          "cum_km": 1.1652,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1629378078",
+          "cum_km": 1.6992,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2291874223",
+          "cum_km": 2.1187,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2291874259",
+          "cum_km": 2.3556,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2291874222",
+          "cum_km": 2.8265,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/291169172",
+          "cum_km": 3.4357,
+          "snap_dist": 1.91
+        }
+      ],
+      "Antonigasse": [
+        {
+          "id": "node/291169172",
+          "cum_km": 0.0,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2291874197",
+          "cum_km": 0.3871,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2291874259",
+          "cum_km": 0.948,
+          "snap_dist": 16.47
+        },
+        {
+          "id": "node/2291874204",
+          "cum_km": 1.1068,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1629378082",
+          "cum_km": 1.5342,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2592693142",
+          "cum_km": 2.1392,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2592693139",
+          "cum_km": 2.3627,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2592693241",
+          "cum_km": 2.6403,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2407260760",
+          "cum_km": 2.8439,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2407325778",
+          "cum_km": 3.1335,
+          "snap_dist": 8.41
+        },
+        {
+          "id": "node/2286020609",
+          "cum_km": 3.4264,
+          "snap_dist": 5.31
+        },
+        {
+          "id": "node/2407260774",
+          "cum_km": 3.6884,
+          "snap_dist": 8.23
+        }
+      ]
+    }
+  },
+  "46": {
+    "route_type": "tram",
+    "speed_kmh": 15,
+    "directions": {
+      "Joachimsthalerplatz": [
+        {
+          "id": "node/60676388",
+          "cum_km": 0.0,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/60676396",
+          "cum_km": 0.1167,
+          "snap_dist": 5.8
+        },
+        {
+          "id": "node/2211384236",
+          "cum_km": 0.3193,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2373716937",
+          "cum_km": 0.8122,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2373684022",
+          "cum_km": 1.2348,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/60676410",
+          "cum_km": 1.6821,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2285898204",
+          "cum_km": 1.8873,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2285898230",
+          "cum_km": 2.2963,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2285898249",
+          "cum_km": 2.6216,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2285898223",
+          "cum_km": 3.0991,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2285898255",
+          "cum_km": 4.0624,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2331986535",
+          "cum_km": 4.4122,
+          "snap_dist": 13.61
+        },
+        {
+          "id": "node/60676432",
+          "cum_km": 4.7762,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2285898244",
+          "cum_km": 6.0968,
+          "snap_dist": 3.81
+        }
+      ],
+      "Ring, Volkstheater": [
+        {
+          "id": "node/60676432",
+          "cum_km": 0.0,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2331986535",
+          "cum_km": 0.2239,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2331999548",
+          "cum_km": 0.5042,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2285898232",
+          "cum_km": 0.9277,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2285898209",
+          "cum_km": 1.437,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2285898205",
+          "cum_km": 1.8958,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2285898215",
+          "cum_km": 2.2937,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2285898256",
+          "cum_km": 2.7092,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2216200692",
+          "cum_km": 2.9764,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2373693276",
+          "cum_km": 3.3186,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2373716937",
+          "cum_km": 3.8275,
+          "snap_dist": 6.03
+        },
+        {
+          "id": "node/60676396",
+          "cum_km": 4.5267,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/60676388",
+          "cum_km": 4.7999,
+          "snap_dist": 3.89
+        },
+        {
+          "id": "node/60676404",
+          "cum_km": 5.3458,
+          "snap_dist": 1.69
+        }
+      ]
+    }
+  },
+  "49": {
+    "route_type": "tram",
+    "speed_kmh": 15,
+    "directions": {
+      "H\u00fctteldorf": [
+        {
+          "id": "node/60676388",
+          "cum_km": 0.0,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/60676396",
+          "cum_km": 0.1094,
+          "snap_dist": 15.99
+        },
+        {
+          "id": "node/2211384239",
+          "cum_km": 0.3599,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2296833085",
+          "cum_km": 0.7651,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2296833063",
+          "cum_km": 0.9807,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2296833110",
+          "cum_km": 1.1748,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2287963583",
+          "cum_km": 1.5097,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2293993846",
+          "cum_km": 1.8416,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2293994095",
+          "cum_km": 2.1089,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2293993867",
+          "cum_km": 2.5454,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2293993991",
+          "cum_km": 2.8489,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2293993855",
+          "cum_km": 3.1677,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2293993866",
+          "cum_km": 3.6337,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2329827456",
+          "cum_km": 4.2316,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2288199701",
+          "cum_km": 4.5421,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2510471103",
+          "cum_km": 4.8864,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2510471090",
+          "cum_km": 5.4544,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2510471174",
+          "cum_km": 6.0428,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2705819745",
+          "cum_km": 7.9934,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2711859002",
+          "cum_km": 8.2395,
+          "snap_dist": 8.66
+        },
+        {
+          "id": "node/430450310",
+          "cum_km": 8.5758,
+          "snap_dist": 1.8
+        },
+        {
+          "id": "node/4076152499",
+          "cum_km": 9.6839,
+          "snap_dist": 7.22
+        },
+        {
+          "id": "node/1100482424",
+          "cum_km": 10.0759,
+          "snap_dist": 4.38
+        },
+        {
+          "id": "node/2510471036",
+          "cum_km": 10.5858,
+          "snap_dist": 1.5
+        },
+        {
+          "id": "node/2510471146",
+          "cum_km": 10.9476,
+          "snap_dist": 1.98
+        }
+      ],
+      "Ring, Volkstheater": [
+        {
+          "id": "node/13169495154",
+          "cum_km": 0.0,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2711859002",
+          "cum_km": 0.3179,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/647991",
+          "cum_km": 0.5797,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/4076152498",
+          "cum_km": 0.977,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1321314195",
+          "cum_km": 1.31,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2510471049",
+          "cum_km": 1.7668,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2510471157",
+          "cum_km": 1.983,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2510471164",
+          "cum_km": 2.4835,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2510471122",
+          "cum_km": 3.0724,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2509620147",
+          "cum_km": 3.6201,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2288199703",
+          "cum_km": 3.9829,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2331960742",
+          "cum_km": 4.3688,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2293994066",
+          "cum_km": 4.9337,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2293993868",
+          "cum_km": 5.4206,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2293993859",
+          "cum_km": 5.732,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2293993929",
+          "cum_km": 5.963,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/79721398",
+          "cum_km": 6.4685,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2293993846",
+          "cum_km": 6.7218,
+          "snap_dist": 4.23
+        },
+        {
+          "id": "node/2287963578",
+          "cum_km": 7.0001,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2296833110",
+          "cum_km": 7.3911,
+          "snap_dist": 3.24
+        },
+        {
+          "id": "node/2296833114",
+          "cum_km": 7.5537,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/60676388",
+          "cum_km": 8.5399,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/276171350",
+          "cum_km": 9.0461,
+          "snap_dist": 2.38
+        },
+        {
+          "id": "node/2296833143",
+          "cum_km": 9.4657,
+          "snap_dist": 6.54
+        }
+      ]
+    }
+  },
+  "U3": {
+    "route_type": "subway",
+    "speed_kmh": 35,
+    "directions": {
+      "Ottakring": [
+        {
+          "id": "node/4348361819",
+          "cum_km": 0.0,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/4348361650",
+          "cum_km": 0.7022,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/4348361820",
+          "cum_km": 1.3988,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/4348361651",
+          "cum_km": 2.0546,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/69472524",
+          "cum_km": 2.9351,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/4348402510",
+          "cum_km": 3.5997,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/4348401658",
+          "cum_km": 4.2078,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/4348402508",
+          "cum_km": 4.9613,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/4348401660",
+          "cum_km": 5.6048,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/60093484",
+          "cum_km": 6.1075,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/3500528320",
+          "cum_km": 6.6852,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/3500528326",
+          "cum_km": 6.6852,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/60093482",
+          "cum_km": 7.2223,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/278312081",
+          "cum_km": 7.7299,
+          "snap_dist": 15.47
+        },
+        {
+          "id": "node/2443041092",
+          "cum_km": 7.8671,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/60848313",
+          "cum_km": 8.7568,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/4348437214",
+          "cum_km": 8.7568,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/60848217",
+          "cum_km": 9.2796,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/4348437230",
+          "cum_km": 9.2796,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/60847900",
+          "cum_km": 9.8841,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/60848716",
+          "cum_km": 10.679,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/60848715",
+          "cum_km": 11.3018,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/69503159",
+          "cum_km": 12.0677,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/69505153",
+          "cum_km": 12.6153,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/60849378",
+          "cum_km": 13.3479,
+          "snap_dist": 0.0
+        }
+      ],
+      "Simmering": [
+        {
+          "id": "node/2440606392",
+          "cum_km": 0.0,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2440652906",
+          "cum_km": 0.7329,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2962398854",
+          "cum_km": 1.2949,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2440684754",
+          "cum_km": 2.0753,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2440681196",
+          "cum_km": 2.7074,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2440715710",
+          "cum_km": 3.4635,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/60848217",
+          "cum_km": 4.0719,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/4348437230",
+          "cum_km": 4.0719,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/60848313",
+          "cum_km": 4.5947,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/4348437214",
+          "cum_km": 4.5947,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2443041093",
+          "cum_km": 5.4957,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2769169147",
+          "cum_km": 6.1281,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/3500528320",
+          "cum_km": 6.6492,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/3500528326",
+          "cum_km": 6.6492,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2784233504",
+          "cum_km": 7.2323,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/4348401659",
+          "cum_km": 7.7308,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/4348402507",
+          "cum_km": 8.3719,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/4348401657",
+          "cum_km": 9.1251,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/4348402509",
+          "cum_km": 9.7353,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2323609149",
+          "cum_km": 10.3989,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/4348361821",
+          "cum_km": 11.9345,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/4348361649",
+          "cum_km": 12.692,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/4348361818",
+          "cum_km": 13.3935,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/4348361652",
+          "cum_km": 15.2415,
+          "snap_dist": 10.31
+        }
+      ]
+    }
+  },
+  "62": {
+    "route_type": "tram",
+    "speed_kmh": 15,
+    "directions": {
+      "Oper, Karlsplatz": [
+        {
+          "id": "node/300040641",
+          "cum_km": 0.0,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1449906356",
+          "cum_km": 0.2594,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1449906380",
+          "cum_km": 0.7239,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1449906342",
+          "cum_km": 1.1237,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/271433884",
+          "cum_km": 1.4593,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/271433893",
+          "cum_km": 1.7826,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1459029221",
+          "cum_km": 2.1628,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2605038153",
+          "cum_km": 2.6784,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2605038162",
+          "cum_km": 3.1894,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2604978812",
+          "cum_km": 3.6199,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2604978806",
+          "cum_km": 3.9038,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1939414316",
+          "cum_km": 4.2239,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2439289279",
+          "cum_km": 5.0069,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2208558408",
+          "cum_km": 5.4662,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2208558389",
+          "cum_km": 5.883,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1630527820",
+          "cum_km": 6.34,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2210383846",
+          "cum_km": 6.528,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2210383837",
+          "cum_km": 6.8618,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2206792167",
+          "cum_km": 7.3584,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2206792118",
+          "cum_km": 8.0489,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2206792132",
+          "cum_km": 8.5182,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2213363753",
+          "cum_km": 8.9286,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2503413064",
+          "cum_km": 9.5096,
+          "snap_dist": 3.3
+        },
+        {
+          "id": "node/2297169719",
+          "cum_km": 9.7466,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2297169772",
+          "cum_km": 10.0814,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1625876644",
+          "cum_km": 11.0321,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/3993342688",
+          "cum_km": 11.4919,
+          "snap_dist": 11.56
+        },
+        {
+          "id": "node/2049552768",
+          "cum_km": 12.0191,
+          "snap_dist": 4.95
+        }
+      ],
+      "Lainz, Wolkersbergenstra\u00dfe": [
+        {
+          "id": "node/1625876644",
+          "cum_km": 0.0,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2525543991",
+          "cum_km": 0.0931,
+          "snap_dist": 4.42
+        },
+        {
+          "id": "node/2049552768",
+          "cum_km": 0.4556,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2297169712",
+          "cum_km": 0.8139,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2297169722",
+          "cum_km": 1.1294,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2503413064",
+          "cum_km": 1.3466,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2293821135",
+          "cum_km": 1.9255,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/274242683",
+          "cum_km": 2.263,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1630528127",
+          "cum_km": 2.7291,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1606447017",
+          "cum_km": 3.484,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2293870404",
+          "cum_km": 3.9439,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2293870376",
+          "cum_km": 4.2594,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2293870406",
+          "cum_km": 4.4584,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1791331052",
+          "cum_km": 5.0058,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1630528156",
+          "cum_km": 5.296,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2439285079",
+          "cum_km": 5.6653,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1939414315",
+          "cum_km": 6.4838,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2604978806",
+          "cum_km": 6.8605,
+          "snap_dist": 3.93
+        },
+        {
+          "id": "node/2604978816",
+          "cum_km": 7.1602,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2605038159",
+          "cum_km": 7.5087,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2605038156",
+          "cum_km": 8.1099,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2605037610",
+          "cum_km": 8.5363,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/3069229563",
+          "cum_km": 8.8997,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1458815541",
+          "cum_km": 9.5453,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1449906367",
+          "cum_km": 9.9641,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/300040641",
+          "cum_km": 10.9861,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/300040657",
+          "cum_km": 11.5524,
+          "snap_dist": 4.09
+        },
+        {
+          "id": "node/1458791821",
+          "cum_km": 13.0927,
+          "snap_dist": 1.24
+        }
+      ]
+    }
+  },
+  "18": {
+    "route_type": "tram",
+    "speed_kmh": 15,
+    "directions": {
+      "Burggasse-Stadthalle": [
+        {
+          "id": "node/2309461620",
+          "cum_km": 0.0,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/13356222637",
+          "cum_km": 0.2546,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2309520187",
+          "cum_km": 0.7014,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2309520167",
+          "cum_km": 1.1078,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2223283849",
+          "cum_km": 1.4322,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2373884961",
+          "cum_km": 1.7368,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/5034488480",
+          "cum_km": 2.2129,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1625876626",
+          "cum_km": 2.6502,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1600416485",
+          "cum_km": 3.0755,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2206792110",
+          "cum_km": 3.5659,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1630527822",
+          "cum_km": 3.9975,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2206791983",
+          "cum_km": 4.3293,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1630528127",
+          "cum_km": 4.775,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1606447017",
+          "cum_km": 5.5299,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2208844452",
+          "cum_km": 6.0695,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2208844454",
+          "cum_km": 6.5674,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2208844453",
+          "cum_km": 7.0188,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/270328287",
+          "cum_km": 8.2873,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/270328328",
+          "cum_km": 8.3833,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2211616098",
+          "cum_km": 9.2204,
+          "snap_dist": 5.49
+        },
+        {
+          "id": "node/2208844455",
+          "cum_km": 9.7788,
+          "snap_dist": 2.1
+        }
+      ],
+      "Schlachthausgasse": [
+        {
+          "id": "node/1401435770",
+          "cum_km": 0.0,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/270328327",
+          "cum_km": 0.0941,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/270328299",
+          "cum_km": 0.6067,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/270328332",
+          "cum_km": 1.0138,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/270328326",
+          "cum_km": 1.2739,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/654084004",
+          "cum_km": 1.7759,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1606447012",
+          "cum_km": 2.3088,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2206792167",
+          "cum_km": 2.8464,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2206792118",
+          "cum_km": 3.537,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2206792132",
+          "cum_km": 4.0063,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2206791953",
+          "cum_km": 4.3683,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1625876777",
+          "cum_km": 4.8189,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1600416423",
+          "cum_km": 5.3463,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/84614127",
+          "cum_km": 5.6791,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/5034488481",
+          "cum_km": 6.1709,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2309506460",
+          "cum_km": 6.6679,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2309520174",
+          "cum_km": 7.0071,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2309461620",
+          "cum_km": 7.9512,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2309520157",
+          "cum_km": 8.3641,
+          "snap_dist": 8.41
+        },
+        {
+          "id": "node/2309520117",
+          "cum_km": 8.7785,
+          "snap_dist": 4.7
+        }
+      ]
+    }
+  },
+  "6": {
+    "route_type": "tram",
+    "speed_kmh": 15,
+    "directions": {
+      "Geiereckstra\u00dfe": [
+        {
+          "id": "node/324170924",
+          "cum_km": 0.0,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/270328327",
+          "cum_km": 0.0927,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/270328299",
+          "cum_km": 0.6053,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/270328332",
+          "cum_km": 1.0124,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/270328326",
+          "cum_km": 1.2725,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/654084004",
+          "cum_km": 1.7745,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1606447012",
+          "cum_km": 2.3074,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2206792167",
+          "cum_km": 2.845,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2206792118",
+          "cum_km": 3.5356,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2208903487",
+          "cum_km": 3.9158,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2309679663",
+          "cum_km": 4.2583,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2309679674",
+          "cum_km": 4.5096,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2260653575",
+          "cum_km": 5.0985,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2260653592",
+          "cum_km": 5.3953,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2260653590",
+          "cum_km": 5.7631,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2260607851",
+          "cum_km": 6.2891,
+          "snap_dist": 3.02
+        },
+        {
+          "id": "node/6770760368",
+          "cum_km": 6.5674,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/6739882374",
+          "cum_km": 7.307,
+          "snap_dist": 0.0
+        }
+      ],
+      "Burggasse-Stadthalle": [
+        {
+          "id": "node/6739882374",
+          "cum_km": 0.0,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/6770760369",
+          "cum_km": 0.8541,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2260607851",
+          "cum_km": 1.207,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2260653597",
+          "cum_km": 1.6287,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2260653616",
+          "cum_km": 2.0222,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2260653620",
+          "cum_km": 2.3116,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2309679672",
+          "cum_km": 2.9322,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2309679656",
+          "cum_km": 3.2123,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2309679712",
+          "cum_km": 3.501,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2206792153",
+          "cum_km": 3.8977,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1606447017",
+          "cum_km": 4.6466,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2208844452",
+          "cum_km": 5.1862,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2208844454",
+          "cum_km": 5.6841,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2208844453",
+          "cum_km": 6.1355,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/270328287",
+          "cum_km": 7.4041,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/270328328",
+          "cum_km": 7.5952,
+          "snap_dist": 12.16
+        },
+        {
+          "id": "node/2211616098",
+          "cum_km": 8.3371,
+          "snap_dist": 5.49
+        },
+        {
+          "id": "node/2208844455",
+          "cum_km": 8.8956,
+          "snap_dist": 2.1
+        }
+      ]
+    }
+  },
+  "10": {
+    "route_type": "tram",
+    "speed_kmh": 15,
+    "directions": {
+      "Unter St. Veit": [
+        {
+          "id": "node/291164503",
+          "cum_km": 0.0,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2571251392",
+          "cum_km": 0.43,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2374840160",
+          "cum_km": 0.9597,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2374798308",
+          "cum_km": 1.4467,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2331986538",
+          "cum_km": 1.7485,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2331999553",
+          "cum_km": 1.955,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2329873365",
+          "cum_km": 2.3583,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2329873362",
+          "cum_km": 2.7869,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2329789214",
+          "cum_km": 3.055,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2329851291",
+          "cum_km": 3.4558,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/813559123",
+          "cum_km": 3.7801,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2439174132",
+          "cum_km": 4.1414,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2424265049",
+          "cum_km": 4.4481,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1476835966",
+          "cum_km": 4.8594,
+          "snap_dist": 3.29
+        },
+        {
+          "id": "node/1459481278",
+          "cum_km": 5.0695,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/911152518",
+          "cum_km": 5.7991,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1023875737",
+          "cum_km": 6.2972,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1476746467",
+          "cum_km": 6.6842,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1476746531",
+          "cum_km": 7.5435,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1476746437",
+          "cum_km": 7.8858,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1476746512",
+          "cum_km": 8.8708,
+          "snap_dist": 4.13
+        }
+      ],
+      "Dornbach, G\u00fcpferlingstra\u00dfe": [
+        {
+          "id": "node/1476746437",
+          "cum_km": 0.0,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1476746496",
+          "cum_km": 0.2201,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1476773030",
+          "cum_km": 0.6891,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1476773036",
+          "cum_km": 1.015,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1476773069",
+          "cum_km": 1.3849,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/251708624",
+          "cum_km": 1.9446,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/292340216",
+          "cum_km": 2.5994,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1476835966",
+          "cum_km": 2.8793,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2424265056",
+          "cum_km": 3.3033,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2439181758",
+          "cum_km": 3.5213,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/813559114",
+          "cum_km": 3.9005,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2329851293",
+          "cum_km": 4.292,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2329851276",
+          "cum_km": 4.6342,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2329857281",
+          "cum_km": 4.9059,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2329851281",
+          "cum_km": 5.3229,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1339075477",
+          "cum_km": 5.7224,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2331986535",
+          "cum_km": 5.9297,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2331999548",
+          "cum_km": 6.21,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2374831369",
+          "cum_km": 6.7214,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2571251391",
+          "cum_km": 7.2589,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/291164503",
+          "cum_km": 7.8898,
+          "snap_dist": 2.3
+        }
+      ]
+    }
+  },
+  "52": {
+    "route_type": "tram",
+    "speed_kmh": 15,
+    "directions": {
+      "Westbahnhof": [
+        {
+          "id": "node/1321314195",
+          "cum_km": 0.0,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2439234276",
+          "cum_km": 0.4607,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2439257340",
+          "cum_km": 1.0124,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2439232969",
+          "cum_km": 1.2225,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2439229939",
+          "cum_km": 1.515,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2439229929",
+          "cum_km": 1.9251,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1832854502",
+          "cum_km": 2.221,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2439192821",
+          "cum_km": 2.6908,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2439192543",
+          "cum_km": 3.0998,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2424265049",
+          "cum_km": 3.3927,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1476800353",
+          "cum_km": 3.7801,
+          "snap_dist": 3.55
+        },
+        {
+          "id": "node/1476800363",
+          "cum_km": 4.1735,
+          "snap_dist": 13.92
+        },
+        {
+          "id": "node/323202808",
+          "cum_km": 4.2939,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2424132219",
+          "cum_km": 4.6369,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2424124784",
+          "cum_km": 5.0041,
+          "snap_dist": 3.89
+        },
+        {
+          "id": "node/298955387",
+          "cum_km": 5.8232,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/298955270",
+          "cum_km": 6.2062,
+          "snap_dist": 4.62
+        },
+        {
+          "id": "node/2424132357",
+          "cum_km": 6.6934,
+          "snap_dist": 6.71
+        }
+      ],
+      "Baumgarten": [
+        {
+          "id": "node/298955387",
+          "cum_km": 0.0,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2208867426",
+          "cum_km": 0.1439,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2424124818",
+          "cum_km": 0.3624,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2424124784",
+          "cum_km": 0.7806,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2424124763",
+          "cum_km": 1.0826,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2424124597",
+          "cum_km": 1.4402,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1476800363",
+          "cum_km": 1.621,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1476800353",
+          "cum_km": 1.9989,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2424265056",
+          "cum_km": 2.3931,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2439181758",
+          "cum_km": 2.6111,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2439192794",
+          "cum_km": 3.0031,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2439209112",
+          "cum_km": 3.5298,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2439242397",
+          "cum_km": 3.8306,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2439222383",
+          "cum_km": 4.2518,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2439222385",
+          "cum_km": 4.5257,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1100482430",
+          "cum_km": 5.7724,
+          "snap_dist": 1.21
+        },
+        {
+          "id": "node/2439222451",
+          "cum_km": 6.3468,
+          "snap_dist": 2.83
+        },
+        {
+          "id": "node/2439222414",
+          "cum_km": 6.9481,
+          "snap_dist": 2.08
+        }
+      ]
+    }
+  },
+  "60": {
+    "route_type": "tram",
+    "speed_kmh": 15,
+    "directions": {
+      "Rodaun": [
+        {
+          "id": "node/1022300101",
+          "cum_km": 0.0,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2208867426",
+          "cum_km": 0.1617,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2424124818",
+          "cum_km": 0.3802,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2424124784",
+          "cum_km": 0.7984,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2424124763",
+          "cum_km": 1.1004,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2424124597",
+          "cum_km": 1.4579,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1476800363",
+          "cum_km": 1.6388,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1476800353",
+          "cum_km": 2.0166,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1459481278",
+          "cum_km": 2.325,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/911152518",
+          "cum_km": 3.0546,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1023875783",
+          "cum_km": 3.5399,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1459107487",
+          "cum_km": 4.2449,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1459107494",
+          "cum_km": 4.6999,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1458875190",
+          "cum_km": 5.23,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1458875245",
+          "cum_km": 5.6604,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1458841319",
+          "cum_km": 6.0854,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1458815541",
+          "cum_km": 6.4095,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1449828740",
+          "cum_km": 7.1321,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1448235270",
+          "cum_km": 7.5774,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1445570106",
+          "cum_km": 8.2376,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/252144651",
+          "cum_km": 9.6906,
+          "snap_dist": 6.72
+        },
+        {
+          "id": "node/1443434932",
+          "cum_km": 10.4758,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/5927477527",
+          "cum_km": 11.0523,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/285955105",
+          "cum_km": 11.1422,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1443434856",
+          "cum_km": 12.3681,
+          "snap_dist": 3.37
+        },
+        {
+          "id": "node/1443465953",
+          "cum_km": 13.6309,
+          "snap_dist": 1.87
+        },
+        {
+          "id": "node/1445569998",
+          "cum_km": 14.0348,
+          "snap_dist": 11.06
+        }
+      ],
+      "Westbahnhof": [
+        {
+          "id": "node/285955105",
+          "cum_km": 0.0,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1443443445",
+          "cum_km": 0.5818,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/252144605",
+          "cum_km": 0.9517,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/252144651",
+          "cum_km": 1.4074,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1443399391",
+          "cum_km": 2.0022,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1445570081",
+          "cum_km": 2.41,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1445570087",
+          "cum_km": 2.8491,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1448235288",
+          "cum_km": 3.5077,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1449828712",
+          "cum_km": 4.0357,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1449828747",
+          "cum_km": 4.5644,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/271433884",
+          "cum_km": 4.9125,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1458875167",
+          "cum_km": 5.45,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1458875223",
+          "cum_km": 5.809,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1459091259",
+          "cum_km": 6.3922,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1459091209",
+          "cum_km": 6.887,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1459091189",
+          "cum_km": 7.4748,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/251708624",
+          "cum_km": 8.036,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/292340216",
+          "cum_km": 8.6907,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1476800363",
+          "cum_km": 9.4584,
+          "snap_dist": 13.92
+        },
+        {
+          "id": "node/2424124597",
+          "cum_km": 9.6219,
+          "snap_dist": 5.82
+        },
+        {
+          "id": "node/2424124763",
+          "cum_km": 9.9821,
+          "snap_dist": 3.48
+        },
+        {
+          "id": "node/298955270",
+          "cum_km": 10.928,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1022300101",
+          "cum_km": 11.1099,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2424132357",
+          "cum_km": 11.9574,
+          "snap_dist": 6.71
+        },
+        {
+          "id": "node/2424132301",
+          "cum_km": 12.3165,
+          "snap_dist": 1.6
+        },
+        {
+          "id": "node/1476835966",
+          "cum_km": 13.8879,
+          "snap_dist": 1.87
+        }
+      ]
+    }
+  },
+  "11": {
+    "route_type": "tram",
+    "speed_kmh": 15,
+    "directions": {
+      "Otto-Probst-Platz": [
+        {
+          "id": "node/10115152692",
+          "cum_km": 0.0,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2213420240",
+          "cum_km": 0.4225,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2213420202",
+          "cum_km": 0.7506,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2213420122",
+          "cum_km": 1.3091,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2213420101",
+          "cum_km": 1.6654,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2250845352",
+          "cum_km": 2.1163,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2250845415",
+          "cum_km": 2.3418,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2250845308",
+          "cum_km": 2.9367,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2250845400",
+          "cum_km": 3.7374,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2250845310",
+          "cum_km": 4.2402,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/8274978600",
+          "cum_km": 4.7775,
+          "snap_dist": 5.94
+        },
+        {
+          "id": "node/2213481886",
+          "cum_km": 4.9515,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2213481879",
+          "cum_km": 5.3969,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2213481882",
+          "cum_km": 5.5446,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2177208270",
+          "cum_km": 5.857,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2309583881",
+          "cum_km": 6.1099,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2289419762",
+          "cum_km": 6.3434,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2289419749",
+          "cum_km": 6.7372,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/326889153",
+          "cum_km": 7.2206,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/6770760369",
+          "cum_km": 7.8545,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2260607851",
+          "cum_km": 8.2073,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2260653597",
+          "cum_km": 8.629,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2260653616",
+          "cum_km": 9.0226,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2260653620",
+          "cum_km": 9.3119,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2252414324",
+          "cum_km": 9.646,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2252414313",
+          "cum_km": 9.7944,
+          "snap_dist": 4.67
+        },
+        {
+          "id": "node/2309695316",
+          "cum_km": 10.2366,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2309695321",
+          "cum_km": 10.547,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/123764313",
+          "cum_km": 12.2389,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/123768930",
+          "cum_km": 12.9741,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/123768948",
+          "cum_km": 13.2069,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/123768918",
+          "cum_km": 14.037,
+          "snap_dist": 6.11
+        },
+        {
+          "id": "node/123764306",
+          "cum_km": 14.7643,
+          "snap_dist": 1.56
+        },
+        {
+          "id": "node/1851011376",
+          "cum_km": 15.3495,
+          "snap_dist": 1.5
+        },
+        {
+          "id": "node/123744016",
+          "cum_km": 15.7396,
+          "snap_dist": 6.27
+        }
+      ],
+      "Kaiserebersdorf, Zinnergasse": [
+        {
+          "id": "node/123768948",
+          "cum_km": 0.0,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2069853792",
+          "cum_km": 0.3057,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2069853728",
+          "cum_km": 0.7944,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/304357972",
+          "cum_km": 1.1968,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2069853793",
+          "cum_km": 1.5185,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2069853791",
+          "cum_km": 1.9274,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2069853790",
+          "cum_km": 2.3164,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2309695351",
+          "cum_km": 2.819,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2309695325",
+          "cum_km": 3.2667,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2252414313",
+          "cum_km": 3.6228,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2252414324",
+          "cum_km": 3.7685,
+          "snap_dist": 7.15
+        },
+        {
+          "id": "node/1611095385",
+          "cum_km": 4.0061,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2260653592",
+          "cum_km": 4.3146,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2260653590",
+          "cum_km": 4.6825,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2260607850",
+          "cum_km": 5.2467,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/6770760368",
+          "cum_km": 5.4867,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2456788314",
+          "cum_km": 6.2156,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2289419779",
+          "cum_km": 6.6873,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2309583841",
+          "cum_km": 7.2154,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/62645831",
+          "cum_km": 7.4749,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2213481897",
+          "cum_km": 7.8122,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/117526485",
+          "cum_km": 8.0574,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2213481898",
+          "cum_km": 8.5282,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/8274978600",
+          "cum_km": 8.6328,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2213481889",
+          "cum_km": 9.1219,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/62647432",
+          "cum_km": 9.652,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2250845514",
+          "cum_km": 10.4135,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/62648152",
+          "cum_km": 11.0972,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2250845317",
+          "cum_km": 11.401,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/62650728",
+          "cum_km": 12.1155,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2213420202",
+          "cum_km": 12.6652,
+          "snap_dist": 5.12
+        },
+        {
+          "id": "node/10115152692",
+          "cum_km": 13.2944,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2213420240",
+          "cum_km": 13.7165,
+          "snap_dist": 14.48
+        },
+        {
+          "id": "node/327193185",
+          "cum_km": 13.8,
+          "snap_dist": 14.18
+        },
+        {
+          "id": "node/62650734",
+          "cum_km": 15.1168,
+          "snap_dist": 3.51
+        }
+      ]
+    }
+  },
+  "12": {
+    "route_type": "tram",
+    "speed_kmh": 15,
+    "directions": {
+      "Josefst\u00e4dter Stra\u00dfe": [
+        {
+          "id": "node/13053261850",
+          "cum_km": 0.0,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/13053261849",
+          "cum_km": 0.279,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/13053261847",
+          "cum_km": 0.6465,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/13053261845",
+          "cum_km": 1.2318,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/13053261843",
+          "cum_km": 1.7355,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/13053261842",
+          "cum_km": 1.9939,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2269635414",
+          "cum_km": 2.4193,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2269635411",
+          "cum_km": 2.7945,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/314051524",
+          "cum_km": 3.3268,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1617948514",
+          "cum_km": 3.5269,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2294764391",
+          "cum_km": 4.2483,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2294764645",
+          "cum_km": 4.5029,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2294764412",
+          "cum_km": 4.8236,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2294764609",
+          "cum_km": 5.0489,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2213599997",
+          "cum_km": 5.3941,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1617987696",
+          "cum_km": 5.7374,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/303352072",
+          "cum_km": 6.1996,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1374418164",
+          "cum_km": 6.4845,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2213493626",
+          "cum_km": 6.8849,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2213493627",
+          "cum_km": 7.3241,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2212945116",
+          "cum_km": 7.7594,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2571389028",
+          "cum_km": 7.9574,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1126172299",
+          "cum_km": 8.2404,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1599466231",
+          "cum_km": 8.7425,
+          "snap_dist": 1.5
+        },
+        {
+          "id": "node/317367327",
+          "cum_km": 8.9587,
+          "snap_dist": 1.79
+        }
+      ],
+      "Hillerstra\u00dfe": [
+        {
+          "id": "node/1599466231",
+          "cum_km": 0.0,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/317367327",
+          "cum_km": 0.3956,
+          "snap_dist": 3.77
+        },
+        {
+          "id": "node/2212886641",
+          "cum_km": 0.595,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2212938270",
+          "cum_km": 0.8562,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2212938272",
+          "cum_km": 1.2616,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2212938269",
+          "cum_km": 1.4804,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2223032063",
+          "cum_km": 1.9294,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2213114952",
+          "cum_km": 2.3282,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/122145923",
+          "cum_km": 2.7141,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2210422295",
+          "cum_km": 3.1707,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2210422347",
+          "cum_km": 3.526,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2294764803",
+          "cum_km": 3.7609,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2294764564",
+          "cum_km": 3.9968,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2294764364",
+          "cum_km": 4.3287,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2294764578",
+          "cum_km": 4.6427,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/60296237",
+          "cum_km": 5.2826,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2269598829",
+          "cum_km": 5.618,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2269635430",
+          "cum_km": 6.0893,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2269635407",
+          "cum_km": 6.4998,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2309411836",
+          "cum_km": 6.8114,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/7881279880",
+          "cum_km": 7.214,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/13053261844",
+          "cum_km": 7.681,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/13053261846",
+          "cum_km": 8.1752,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/13053261848",
+          "cum_km": 8.655,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/13053261850",
+          "cum_km": 8.8224,
+          "snap_dist": 0.0
+        }
+      ]
+    }
+  },
+  "U6": {
+    "route_type": "subway",
+    "speed_kmh": 35,
+    "directions": {
+      "Floridsdorf": [
+        {
+          "id": "node/61688602",
+          "cum_km": 0.0595,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/61688600",
+          "cum_km": 0.7875,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/61688597",
+          "cum_km": 1.4443,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/61688590",
+          "cum_km": 2.3919,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1378094193",
+          "cum_km": 3.6838,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1378094234",
+          "cum_km": 4.2318,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2211901255",
+          "cum_km": 5.2463,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2211901245",
+          "cum_km": 6.0548,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/624231459",
+          "cum_km": 6.6297,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/60092321",
+          "cum_km": 7.3749,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/446005361",
+          "cum_km": 8.0818,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2293994095",
+          "cum_km": 8.5903,
+          "snap_dist": 2.37
+        },
+        {
+          "id": "node/60091791",
+          "cum_km": 8.8195,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/60091638",
+          "cum_km": 9.3345,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/60091642",
+          "cum_km": 9.7566,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/60091648",
+          "cum_km": 10.3826,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/60091653",
+          "cum_km": 10.9091,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/60091661",
+          "cum_km": 11.5808,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2211799763",
+          "cum_km": 13.7673,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2211799727",
+          "cum_km": 14.6749,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2211815211",
+          "cum_km": 16.1943,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2211799784",
+          "cum_km": 17.3838,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2211815196",
+          "cum_km": 19.669,
+          "snap_dist": 6.29
+        },
+        {
+          "id": "node/140052877",
+          "cum_km": 22.2735,
+          "snap_dist": 4.67
+        },
+        {
+          "id": "node/60091400",
+          "cum_km": 23.1456,
+          "snap_dist": 1.43
+        }
+      ],
+      "Siebenhirten": [
+        {
+          "id": "node/60821450",
+          "cum_km": 0.0,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/60821127",
+          "cum_km": 1.1916,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/92339823",
+          "cum_km": 2.0269,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/60091121",
+          "cum_km": 2.7052,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/60091215",
+          "cum_km": 3.6104,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1391371862",
+          "cum_km": 4.4023,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1391371110",
+          "cum_km": 5.0919,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1391371900",
+          "cum_km": 5.8025,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1629378078",
+          "cum_km": 5.9637,
+          "snap_dist": 16.12
+        },
+        {
+          "id": "node/1391371084",
+          "cum_km": 6.4735,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1391371057",
+          "cum_km": 7.0036,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1391371069",
+          "cum_km": 7.6306,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1391371870",
+          "cum_km": 8.0519,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2211616118",
+          "cum_km": 8.5684,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2211616098",
+          "cum_km": 9.3276,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2212832986",
+          "cum_km": 10.009,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/624231466",
+          "cum_km": 10.7492,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/272657452",
+          "cum_km": 11.3356,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/61688573",
+          "cum_km": 12.1446,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/61688581",
+          "cum_km": 13.7019,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2108560287",
+          "cum_km": 14.9956,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2108420555",
+          "cum_km": 17.3279,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2108469455",
+          "cum_km": 18.659,
+          "snap_dist": 10.39
+        },
+        {
+          "id": "node/2108469429",
+          "cum_km": 19.3177,
+          "snap_dist": 3.17
+        },
+        {
+          "id": "node/61688579",
+          "cum_km": 22.8902,
+          "snap_dist": 6.1
+        }
+      ]
+    }
+  },
+  "5": {
+    "route_type": "tram",
+    "speed_kmh": 15,
+    "directions": {
+      "Westbahnhof": [
+        {
+          "id": "node/114202479",
+          "cum_km": 0.0,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2268583608",
+          "cum_km": 0.6154,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2268583616",
+          "cum_km": 1.0971,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2294764733",
+          "cum_km": 1.5225,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2294764650",
+          "cum_km": 2.0058,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2294764698",
+          "cum_km": 2.3287,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2294764609",
+          "cum_km": 2.5599,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2213599997",
+          "cum_km": 2.905,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1617987696",
+          "cum_km": 3.2484,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/303352072",
+          "cum_km": 3.7106,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1374418164",
+          "cum_km": 3.9955,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2213493626",
+          "cum_km": 4.3958,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2213493627",
+          "cum_km": 4.835,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2212945116",
+          "cum_km": 5.2704,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2571389028",
+          "cum_km": 5.4684,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1126172299",
+          "cum_km": 5.7513,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/317367327",
+          "cum_km": 5.9967,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1832915406",
+          "cum_km": 6.2756,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1832915395",
+          "cum_km": 6.5594,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2212857878",
+          "cum_km": 6.7482,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/507052260",
+          "cum_km": 7.0299,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/123860839",
+          "cum_km": 7.7349,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1830061983",
+          "cum_km": 8.1781,
+          "snap_dist": 12.64
+        }
+      ],
+      "Praterstern": [
+        {
+          "id": "node/123860839",
+          "cum_km": 0.0,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2510800419",
+          "cum_km": 0.2634,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2510800506",
+          "cum_km": 0.4698,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2212850370",
+          "cum_km": 0.8193,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2212857880",
+          "cum_km": 1.0934,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2212857879",
+          "cum_km": 1.2792,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2212860269",
+          "cum_km": 1.541,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2212886699",
+          "cum_km": 1.8453,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2212886641",
+          "cum_km": 2.0873,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2212938270",
+          "cum_km": 2.3485,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2212938272",
+          "cum_km": 2.7538,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2212938269",
+          "cum_km": 2.9726,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2223032063",
+          "cum_km": 3.4217,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2213114952",
+          "cum_km": 3.8205,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/122145923",
+          "cum_km": 4.2063,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2210422295",
+          "cum_km": 4.663,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2210422347",
+          "cum_km": 5.0182,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2294764803",
+          "cum_km": 5.2532,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2294764564",
+          "cum_km": 5.4891,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2294764478",
+          "cum_km": 5.8759,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2294764761",
+          "cum_km": 6.3806,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2268583610",
+          "cum_km": 6.7061,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2268583608",
+          "cum_km": 7.2566,
+          "snap_dist": 10.57
+        },
+        {
+          "id": "node/114202479",
+          "cum_km": 8.0571,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2268593991",
+          "cum_km": 8.5783,
+          "snap_dist": 9.55
+        }
+      ]
+    }
+  },
+  "9": {
+    "route_type": "tram",
+    "speed_kmh": 15,
+    "directions": {
+      "Westbahnhof": [
+        {
+          "id": "node/2411950477",
+          "cum_km": 0.0,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/252511595",
+          "cum_km": 0.0839,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2292452224",
+          "cum_km": 0.3969,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2360784501",
+          "cum_km": 0.4629,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2407231833",
+          "cum_km": 0.8814,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2407325778",
+          "cum_km": 1.1786,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/269541925",
+          "cum_km": 1.4081,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2407351717",
+          "cum_km": 1.8561,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2216507460",
+          "cum_km": 2.2275,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2216530088",
+          "cum_km": 2.5539,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1546106141",
+          "cum_km": 2.955,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2223156317",
+          "cum_km": 3.2549,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2285911692",
+          "cum_km": 3.5631,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2285911663",
+          "cum_km": 3.8248,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2285911665",
+          "cum_km": 4.4178,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2411911256",
+          "cum_km": 4.6995,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2293993859",
+          "cum_km": 5.2752,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2293993929",
+          "cum_km": 5.5061,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/287235515",
+          "cum_km": 6.4119,
+          "snap_dist": 1.56
+        },
+        {
+          "id": "node/2293993848",
+          "cum_km": 6.8646,
+          "snap_dist": 12.3
+        }
+      ],
+      "Gersthof": [
+        {
+          "id": "node/287235515",
+          "cum_km": 0.0,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1394529428",
+          "cum_km": 0.3842,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2293993867",
+          "cum_km": 0.8177,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2293993991",
+          "cum_km": 1.1213,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2411909898",
+          "cum_km": 1.5989,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2285911704",
+          "cum_km": 1.918,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2285911667",
+          "cum_km": 2.456,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2285911702",
+          "cum_km": 2.741,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2285945342",
+          "cum_km": 3.0369,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2423365127",
+          "cum_km": 3.2238,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/473167212",
+          "cum_km": 3.7395,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1630416816",
+          "cum_km": 4.084,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2407351716",
+          "cum_km": 4.38,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2407325779",
+          "cum_km": 4.7982,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2407260774",
+          "cum_km": 5.034,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2407231834",
+          "cum_km": 5.4226,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2360784501",
+          "cum_km": 5.8109,
+          "snap_dist": 2.97
+        },
+        {
+          "id": "node/2411950477",
+          "cum_km": 6.0452,
+          "snap_dist": 0.0
+        }
+      ]
+    }
+  },
+  "25": {
+    "route_type": "tram",
+    "speed_kmh": 15,
+    "directions": {
+      "Aspern": [
+        {
+          "id": "node/325933852",
+          "cum_km": 0.0,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2452077611",
+          "cum_km": 0.2407,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/4146832189",
+          "cum_km": 0.3866,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1618210430",
+          "cum_km": 0.9551,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1596663449",
+          "cum_km": 1.4861,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1618210412",
+          "cum_km": 1.9322,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1618210432",
+          "cum_km": 2.6372,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/4246679917",
+          "cum_km": 3.1558,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1020652590",
+          "cum_km": 3.7705,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1618210414",
+          "cum_km": 3.937,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1618210434",
+          "cum_km": 4.3327,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1618210409",
+          "cum_km": 4.9962,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1595872957",
+          "cum_km": 5.5236,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1595860501",
+          "cum_km": 6.1309,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1595857081",
+          "cum_km": 6.3702,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1618210444",
+          "cum_km": 6.8045,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1618210450",
+          "cum_km": 7.1901,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1618210453",
+          "cum_km": 8.6149,
+          "snap_dist": 6.19
+        },
+        {
+          "id": "node/1618210467",
+          "cum_km": 9.0822,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/685532330",
+          "cum_km": 9.3688,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/685532304",
+          "cum_km": 10.3994,
+          "snap_dist": 5.78
+        },
+        {
+          "id": "node/746315891",
+          "cum_km": 10.8274,
+          "snap_dist": 3.51
+        },
+        {
+          "id": "node/685532204",
+          "cum_km": 11.4188,
+          "snap_dist": 3.43
+        }
+      ],
+      "Floridsdorf": [
+        {
+          "id": "node/1618210456",
+          "cum_km": 0.0,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/685532312",
+          "cum_km": 0.2134,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1618210453",
+          "cum_km": 0.7376,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/746315890",
+          "cum_km": 1.143,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1593208940",
+          "cum_km": 1.6732,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1618210447",
+          "cum_km": 2.1067,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/323842056",
+          "cum_km": 2.5268,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1618210422",
+          "cum_km": 2.9652,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1595860486",
+          "cum_km": 3.2446,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1595872899",
+          "cum_km": 3.7589,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/12087482246",
+          "cum_km": 4.3741,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1618210433",
+          "cum_km": 4.9209,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1618210413",
+          "cum_km": 5.3402,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/599716129",
+          "cum_km": 5.6784,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2067172251",
+          "cum_km": 6.183,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2074600076",
+          "cum_km": 6.6434,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1596663471",
+          "cum_km": 7.3655,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1596663487",
+          "cum_km": 7.8693,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1618210430",
+          "cum_km": 8.383,
+          "snap_dist": 5.35
+        },
+        {
+          "id": "node/1399347957",
+          "cum_km": 9.0035,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/325933852",
+          "cum_km": 9.496,
+          "snap_dist": 0.0
+        }
+      ]
+    }
+  },
+  "26": {
+    "route_type": "tram",
+    "speed_kmh": 15,
+    "directions": {
+      "Strebersdorf": [
+        {
+          "id": "node/5048401972",
+          "cum_km": 0.0,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1132355367",
+          "cum_km": 0.2757,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2291668741",
+          "cum_km": 0.6918,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1900068766",
+          "cum_km": 1.0575,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2291743387",
+          "cum_km": 1.3001,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2291733806",
+          "cum_km": 1.6492,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1132355372",
+          "cum_km": 2.0299,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2266126158",
+          "cum_km": 2.4304,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2291748028",
+          "cum_km": 3.0384,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/567985887",
+          "cum_km": 3.6518,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/773311907",
+          "cum_km": 4.0302,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1596670889",
+          "cum_km": 4.5784,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1915138208",
+          "cum_km": 5.0828,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1618210431",
+          "cum_km": 5.4618,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1596663471",
+          "cum_km": 6.1933,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1596663487",
+          "cum_km": 6.6972,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1596658263",
+          "cum_km": 7.233,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1399347957",
+          "cum_km": 7.8313,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1399348023",
+          "cum_km": 8.1484,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1618210455",
+          "cum_km": 8.5343,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1618210435",
+          "cum_km": 9.0163,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1618210425",
+          "cum_km": 9.3477,
+          "snap_dist": 3.04
+        },
+        {
+          "id": "node/1618210411",
+          "cum_km": 10.3596,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/61682537",
+          "cum_km": 12.0444,
+          "snap_dist": 15.48
+        },
+        {
+          "id": "node/1618210457",
+          "cum_km": 13.0247,
+          "snap_dist": 1.78
+        },
+        {
+          "id": "node/1618210475",
+          "cum_km": 14.8178,
+          "snap_dist": 3.96
+        }
+      ],
+      "Hausfeldstra\u00dfe": [
+        {
+          "id": "node/61682537",
+          "cum_km": 0.0,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/311593721",
+          "cum_km": 0.4915,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1618210410",
+          "cum_km": 1.697,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1618210470",
+          "cum_km": 2.1329,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1618210425",
+          "cum_km": 2.708,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1618210436",
+          "cum_km": 2.968,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1618210454",
+          "cum_km": 3.5562,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1618210404",
+          "cum_km": 3.967,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/4146832189",
+          "cum_km": 4.2748,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1618210430",
+          "cum_km": 4.8433,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1596663449",
+          "cum_km": 5.3743,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1618210412",
+          "cum_km": 5.8204,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1618210432",
+          "cum_km": 6.5254,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1596670907",
+          "cum_km": 6.9963,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1596670915",
+          "cum_km": 7.5137,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/773311882",
+          "cum_km": 7.991,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2472321322",
+          "cum_km": 8.3937,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2291748031",
+          "cum_km": 9.0483,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1596706410",
+          "cum_km": 9.6598,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2291733792",
+          "cum_km": 10.0599,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2291733806",
+          "cum_km": 10.4106,
+          "snap_dist": 3.12
+        },
+        {
+          "id": "node/1596714735",
+          "cum_km": 11.0444,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1596714888",
+          "cum_km": 11.8316,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2291668729",
+          "cum_km": 12.3384,
+          "snap_dist": 1.12
+        },
+        {
+          "id": "node/2291743393",
+          "cum_km": 13.0942,
+          "snap_dist": 2.08
+        }
+      ]
+    }
+  },
+  "27": {
+    "route_type": "tram",
+    "speed_kmh": 15,
+    "directions": {
+      "Strebersdorf": [
+        {
+          "id": "node/10536670792",
+          "cum_km": 0.8084,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/10536670790",
+          "cum_km": 1.1808,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/10536670788",
+          "cum_km": 1.5483,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/3348411390",
+          "cum_km": 1.8048,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2291743387",
+          "cum_km": 2.142,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2291733806",
+          "cum_km": 2.4911,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1132355372",
+          "cum_km": 2.8718,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2266126158",
+          "cum_km": 3.2723,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2291748028",
+          "cum_km": 3.8803,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/567985887",
+          "cum_km": 4.4937,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/773311907",
+          "cum_km": 4.8721,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1596670889",
+          "cum_km": 5.4202,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1915138208",
+          "cum_km": 5.9247,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1618210431",
+          "cum_km": 6.3037,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1596663471",
+          "cum_km": 7.0352,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1596663487",
+          "cum_km": 7.5391,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1596658263",
+          "cum_km": 8.0749,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1399347957",
+          "cum_km": 8.6732,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1399348023",
+          "cum_km": 8.9902,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1618210425",
+          "cum_km": 10.1895,
+          "snap_dist": 3.04
+        },
+        {
+          "id": "node/61682537",
+          "cum_km": 12.8862,
+          "snap_dist": 15.48
+        },
+        {
+          "id": "node/1618210457",
+          "cum_km": 13.8666,
+          "snap_dist": 1.78
+        },
+        {
+          "id": "node/1618210411",
+          "cum_km": 15.1536,
+          "snap_dist": 1.95
+        },
+        {
+          "id": "node/1618210475",
+          "cum_km": 15.6597,
+          "snap_dist": 3.96
+        },
+        {
+          "id": "node/1618210435",
+          "cum_km": 16.7808,
+          "snap_dist": 4.99
+        },
+        {
+          "id": "node/1618210454",
+          "cum_km": 17.301,
+          "snap_dist": 4.89
+        }
+      ],
+      "Aspern Nord": [
+        {
+          "id": "node/61682537",
+          "cum_km": 0.0,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/311593721",
+          "cum_km": 0.4915,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1618210410",
+          "cum_km": 1.697,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1618210470",
+          "cum_km": 2.1329,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1618210425",
+          "cum_km": 2.708,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1618210436",
+          "cum_km": 2.968,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1618210454",
+          "cum_km": 3.5562,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1618210404",
+          "cum_km": 3.967,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/4146832189",
+          "cum_km": 4.2748,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1618210430",
+          "cum_km": 4.8433,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1596663449",
+          "cum_km": 5.3743,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1618210412",
+          "cum_km": 5.8204,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1618210432",
+          "cum_km": 6.5254,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1596670907",
+          "cum_km": 6.9963,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1596670915",
+          "cum_km": 7.5137,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/773311882",
+          "cum_km": 7.991,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2472321322",
+          "cum_km": 8.3937,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2291748031",
+          "cum_km": 9.0483,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1596706410",
+          "cum_km": 9.6598,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2291733792",
+          "cum_km": 10.0599,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/2291733806",
+          "cum_km": 10.4106,
+          "snap_dist": 3.12
+        },
+        {
+          "id": "node/10536670789",
+          "cum_km": 11.4026,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/10536670793",
+          "cum_km": 12.1222,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/10536670791",
+          "cum_km": 14.8403,
+          "snap_dist": 5.57
+        },
+        {
+          "id": "node/10536670774",
+          "cum_km": 15.6926,
+          "snap_dist": 2.72
+        },
+        {
+          "id": "node/2291743393",
+          "cum_km": 16.0266,
+          "snap_dist": 2.08
+        }
+      ]
+    }
+  },
+  "30": {
+    "route_type": "tram",
+    "speed_kmh": 15,
+    "directions": {
+      "Stammersdorf": [
+        {
+          "id": "node/4819815065",
+          "cum_km": 0.0,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/60296274",
+          "cum_km": 0.2405,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1597323835",
+          "cum_km": 0.8089,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1597326599",
+          "cum_km": 1.1944,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1618098121",
+          "cum_km": 1.6644,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/304752488",
+          "cum_km": 1.953,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/60296294",
+          "cum_km": 2.622,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1618098126",
+          "cum_km": 2.9978,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1618098133",
+          "cum_km": 3.4349,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1399437919",
+          "cum_km": 4.6309,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1399437912",
+          "cum_km": 5.1381,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/266266233",
+          "cum_km": 6.5282,
+          "snap_dist": 4.27
+        },
+        {
+          "id": "node/266266191",
+          "cum_km": 6.9163,
+          "snap_dist": 1.96
+        }
+      ],
+      "Floridsdorf": [
+        {
+          "id": "node/1399437912",
+          "cum_km": 0.0,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/320516510",
+          "cum_km": 0.8036,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1618098116",
+          "cum_km": 1.2432,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1399437834",
+          "cum_km": 1.5458,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/299013520",
+          "cum_km": 1.9156,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/60296296",
+          "cum_km": 2.2495,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1597339181",
+          "cum_km": 2.7136,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1399437918",
+          "cum_km": 3.2903,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/60296288",
+          "cum_km": 3.7175,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/60296286",
+          "cum_km": 4.123,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1597323835",
+          "cum_km": 4.5084,
+          "snap_dist": 3.32
+        },
+        {
+          "id": "node/4819815065",
+          "cum_km": 5.4523,
+          "snap_dist": 0.0
+        },
+        {
+          "id": "node/1618098129",
+          "cum_km": 5.7158,
+          "snap_dist": 4.63
+        }
+      ]
+    }
+  }
+}
