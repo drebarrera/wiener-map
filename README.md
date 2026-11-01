@@ -62,14 +62,11 @@ vercel
 Or connect your GitHub repo at vercel.com and add the env var there.
 
 ## Data files in /public
-- `wiener_linien_stops.geojson` - U-Bahn + tram stops from OSM
-- `wiener_linien_lines.geojson` - U-Bahn + tram lines from OSM
-- `stop_times.json` - computed transit times from each stop to CEU (path-distance based on avg speeds: U-Bahn 35 km/h, tram 15 km/h)
-- `vienna_districts.geojson` - you need to add this (see step 3)
 
-## Updating transit times with real GTFS data
-Run this script locally to replace stop_times.json with schedule-accurate times:
-```
-node scripts/gtfs_times.js
-```
-(Script not yet included - uses Wiener Linien GTFS feed at wienerlinien.at/ogd_realtime)
+The below data data files provide the regional data to generate the map. To fit this application to other regions, change the data in these files.
+
+- `stop_data.json` - stop metadata (name, coords, routes, opposite platforms) — core routing logic
+- `line_data.json` - line route definitions with stop sequences and distances — core routing logic
+- `wiener_linien_stops.geojson` - stop point geometries rendered on the Mapbox map layer
+- `wiener_linien_lines.geojson` - line path geometries rendered as route overlays on the map
+- `vienna_districts.geojson` - 25 district polygons rendered and shaded by sentiment
