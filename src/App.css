@@ -344,8 +344,8 @@ html, body, #root { width: 100%; height: 100%; overflow: hidden; }
 .mobile-panel-title { display: none; }
 
 @media (max-width: 768px) {
-  /* Hide the nav title - it moves to the bottom panel */
-  .nav-title-main { display: none !important; }
+  /* Hide the nav title in navbar only - it moves to the bottom panel */
+  .navbar .nav-title-main { display: none !important; }
 
   .navbar {
     padding: 6px 10px;
