@@ -398,7 +398,8 @@ html, body, #root { width: 100%; height: 100%; overflow: hidden; }
     height: auto;
     max-height: 38vh;
     flex-shrink: 0;
-    overflow: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
     order: 2;
     flex-direction: row;
     flex-wrap: wrap;
@@ -409,7 +410,7 @@ html, body, #root { width: 100%; height: 100%; overflow: hidden; }
     border-top: 1px solid rgba(255,255,255,0.08);
   }
 
-  /* Title strip at top of bottom panel */
+  /* Title strip - sticky so it stays visible while scrolling */
   .mobile-panel-title {
     display: flex;
     align-items: center;
@@ -426,6 +427,9 @@ html, body, #root { width: 100%; height: 100%; overflow: hidden; }
     background: rgba(8,13,25,0.97);
     border-bottom: 1px solid rgba(255,255,255,0.06);
     font-family: -apple-system, sans-serif;
+    position: sticky;
+    top: 0;
+    z-index: 10;
   }
 
   /* Origin + Time budget side by side */
@@ -444,7 +448,7 @@ html, body, #root { width: 100%; height: 100%; overflow: hidden; }
     overflow: visible;
   }
 
-  /* Tooltips on mobile: drop below the button */
+  /* Tooltips on mobile: drop below button, clamped to viewport */
   .info-tip-box {
     position: absolute !important;
     left: 0 !important;
@@ -452,11 +456,21 @@ html, body, #root { width: 100%; height: 100%; overflow: hidden; }
     transform: none !important;
     margin: 0 !important;
     width: 200px !important;
+    max-width: calc(100vw - 20px) !important;
     z-index: 9999;
+  }
+  /* Right-side panels: flip tooltip to open leftward */
+  .sp-section.mobile-half:last-of-type .info-tip-box,
+  .sp-section.mobile-half + .sp-section.mobile-half .info-tip-box {
+    left: auto !important;
+    right: 0 !important;
   }
 
   /* Hide legend from sidebar */
   .sp-section:has(.legend-row) { display: none; }
+
+  /* Districts toggle - smaller arrow on mobile */
+  .sp-toggle { font-size: 11px; padding: 4px 8px; }
 
   /* Lightbox */
   .lightbox {

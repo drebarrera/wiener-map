@@ -272,6 +272,7 @@ function WelcomeLightbox({ onClose, onStart, helpOnly, initialDest, initialBudge
           <li><strong style={{color:'#cbd5e1'}}>Apartment hunting</strong> — find every transit stop reachable from your workplace within your commute budget</li>
           <li><strong style={{color:'#cbd5e1'}}>Event dispersal</strong> — approximate the zone attendees re-enter as they leave a venue at a given time</li>
           <li><strong style={{color:'#cbd5e1'}}>Transmission spread</strong> — trace a plausible dispersal radius from a known patient-zero origin</li>
+          <li><strong style={{color:'#cbd5e1'}}>15-minute city analysis</strong> — set any residential address as origin and see which destinations fall within a self-sufficient neighbourhood radius by transit and foot</li>
         </ul>
 
         {!helpOnly && !importMode && (
