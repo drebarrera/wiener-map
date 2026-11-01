@@ -164,28 +164,6 @@
       "name": "Laxenburger Straße 151",
       "colorId": "purple",
       "link": "https://www.notion.so/Available-from-July-1st-Laxenburgerstrasse-Bright-2-room-single-apartment-with-south-facing-pano-36f4d976b321806b85c8fd4fd80cf0ca?source=copy_link"
-    },
-    {
-      "id": 1780637016041,
-      "coords": [
-        16.423287,
-        48.167774
-      ],
-      "label": "Simmeringer Hauptstraße 187, 1110 Vienna, Austria",
-      "name": "Simmeringer Hauptstraße 187",
-      "colorId": "pink",
-      "link": "https://www.notion.so/Simmeringer-Hauptstra-e-3744d976b32180f89322e9551b079c8f?source=copy_link"
-    },
-    {
-      "id": 1780637220047,
-      "coords": [
-        16.398362,
-        48.15291
-      ],
-      "label": "Oppenheimgasse 47, 1100 Vienna, Austria",
-      "name": "Mark's",
-      "colorId": "green",
-      "link": ""
     }
   ],
   "sentiment": {

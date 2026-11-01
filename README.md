@@ -1,8 +1,41 @@
 # Vienna Transit Map
 
-Interactive map showing walkable zones around Vienna transit stops, based on a time budget to CEU (Quellenstraße 51).
+![Example Map](example.webp)
+
+The Wiener Linien Transmission Map visualises transit reach from a fixed origin using Wiener Linien U-Bahn and Tram services: every stop reachable within the assigned time budget is shown with a walking radius circle, indicating the approximate radial distance you could cover on foot after exiting at that stop. The map assumes direct service with no transfers.
+
+I built this map originally to keep track of available apartments and Wohnheime in proximity to [Central European University](ceu.edu) when searching for a place to live as a Master's student. Select **Import Demo Data** on the **Import Session** lightbox to import the demo data I was working with.
+
+**Use cases**:
+* Apartment hunting — find every transit stop reachable from your workplace within your commute budget
+* Event dispersal — approximate the zone attendees re-enter as they leave a venue at a given time
+* Transmission spread — trace a plausible dispersal radius from a known patient-zero origin
+* 15-minute city analysis — set any residential address as origin and see which destinations fall within a self-sufficient neighbourhood radius by transit and foot
+
+## Use
+
+📍 Origin & time budget
+Set your origin in the left panel. Drag the blue pin on the map to adjust. The **Time Budget** slider controls maximum total minutes (transit + walk back from the stop). The map assumes no transfers.
+
+🚏 Click any stop
+Select any stop to see the transit line, transit and walk to boarding station times, and walk range around the destination station.
+
+⭕ Walking circles
+Every transit stop reachable within your budget shows a circle. Its radius is the walking distance you would have left over after riding to the nearest stop to your destination.
+
+🏠 Saving pins
+Search for an address in the top bar and click **Save**. Pins appear in the left panel where you can rename them, add a listing link, and colour-code by preference. Use the chevron to expand a pin's settings, and the trash icon inside to delete it.
+
+🗺 Districts
+Use the **Districts** panel to mark districts as preferred (**+**) or to avoid (**-**). The map shades them green or red. Your preferences export with your session.
+
+💾 Export / Import
+Export saves your pins and district preferences as JSON you can paste back into any future session. Select **Import Demo Data** to import apartment and Wohnheim listing data in proximity to CEU.
+
 
 ## Setup
+
+To set up the app locally, use the below steps.
 
 ### 1. Get a Mapbox token
 Sign up at https://mapbox.com (free tier is enough).
@@ -10,29 +43,9 @@ Copy your public token (starts with `pk.`).
 
 ### 2. Add environment variable
 ```
-cp .env.example .env
-# Edit .env and paste your token:
-# VITE_MAPBOX_TOKEN=pk.your_token_here
+echo "VITE_MAPBOX_TOKEN=<your variable here>" > .env
+# Replace <your variable here> with your Mapbox token and run the above command in the terminal.
 ```
-
-### 3. Add districts GeoJSON
-The map needs `public/vienna_districts.geojson`. Get it by running this Overpass query at overpass-turbo.eu:
-
-```
-[out:json][timeout:90];
-relation["boundary"="administrative"]["admin_level"="9"](48.1,16.2,48.3,16.5);
-out geom;
-```
-
-Export as GeoJSON and save to `public/vienna_districts.geojson`.
-
-The property used for district number should be `BEZNR`, `BEZ`, or `district` - check your file and update the line in `App.jsx`:
-```js
-const num = f.properties.BEZNR || f.properties.district || f.properties.BEZ
-```
-
-### 4. Edit district sentiment
-In `src/App.jsx`, find `DISTRICT_SENTIMENT` and set each district 1 (positive), -1 (negative), or 0 (neutral).
 
 ### 5. Run locally
 ```
@@ -47,14 +60,6 @@ vercel
 # Add VITE_MAPBOX_TOKEN as environment variable in Vercel dashboard
 ```
 Or connect your GitHub repo at vercel.com and add the env var there.
-
-## How it works
-
-- **Slider**: Sets total time budget (transit + walk to CEU)
-- **Blue circles**: Walking radius from each stop, given remaining time after transit
-- **Green districts**: Marked positive in DISTRICT_SENTIMENT
-- **Red districts**: Marked negative
-- **Click any stop**: See transit time breakdown and walk radius
 
 ## Data files in /public
 - `wiener_linien_stops.geojson` - U-Bahn + tram stops from OSM
