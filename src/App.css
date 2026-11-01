@@ -41,7 +41,7 @@ html, body, #root { width: 100%; height: 100%; overflow: hidden; }
 
 /* ── Side panel ── */
 .side-panel {
-  width: 220px; flex-shrink: 0; overflow-y: auto;
+  width: 220px; flex-shrink: 0; overflow: visible;
   background: rgba(8,13,25,0.97);
   border-right: 1px solid rgba(255,255,255,0.07);
   font-family: -apple-system, sans-serif;
@@ -51,6 +51,7 @@ html, body, #root { width: 100%; height: 100%; overflow: hidden; }
   padding: 12px 14px;
   border-bottom: 1px solid rgba(255,255,255,0.06);
   display: flex; flex-direction: column; gap: 8px;
+  overflow: visible;
 }
 .sp-label { font-size: 11px; font-weight: 600; color: #64748b; text-transform: uppercase; letter-spacing: 0.05em; }
 .sp-toggle {
@@ -236,6 +237,7 @@ html, body, #root { width: 100%; height: 100%; overflow: hidden; }
 .lightbox {
   background: #1e293b; border: 1px solid rgba(255,255,255,0.1);
   border-radius: 10px; width: 480px; max-width: 95vw;
+  max-height: 90vh; overflow-y: auto;
   display: flex; flex-direction: column; gap: 12px;
   padding: 20px; box-shadow: 0 20px 60px rgba(0,0,0,0.6);
 }
@@ -293,10 +295,10 @@ html, body, #root { width: 100%; height: 100%; overflow: hidden; }
 }
 .info-tip-btn:hover { background: rgba(96,165,250,0.15); color: #60a5fa; border-color: rgba(96,165,250,0.4); }
 .info-tip-box {
-  position: absolute; left: 18px; top: 50%; transform: translateY(-50%);
+  position: absolute; left: 20px; top: 50%; transform: translateY(-50%);
   width: 180px; background: #1e293b; border: 1px solid rgba(255,255,255,0.12);
   border-radius: 6px; padding: 8px 10px; font-size: 11px; color: #94a3b8;
-  line-height: 1.5; z-index: 500; box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+  line-height: 1.5; z-index: 9999; box-shadow: 0 4px 20px rgba(0,0,0,0.5);
   font-weight: 400; text-transform: none; letter-spacing: normal;
 }
 
@@ -342,61 +344,42 @@ html, body, #root { width: 100%; height: 100%; overflow: hidden; }
 .mobile-panel-title { display: none; }
 
 @media (max-width: 768px) {
+  /* Hide the nav title - it moves to the bottom panel */
+  .nav-title-main { display: none !important; }
+
   .navbar {
     padding: 6px 10px;
     flex-wrap: wrap;
     gap: 6px;
-    position: relative;
-    z-index: 10;
+    height: auto;
   }
   .nav-title { display: none; }
   .poi-search-wrap { flex: 1; min-width: 0; order: 1; }
   .nav-actions { order: 2; gap: 4px; }
-  .nav-btn { padding: 4px 8px; font-size: 10px; }
+  .nav-btn { padding: 4px 8px; font-size: 10px; height: 26px; }
 
-  .app-body {
-    flex-direction: column !important;
+  .app-body { flex-direction: column; position: relative; }
+
+  /* Map gets remaining space above the panel */
+  .map-container {
+    order: 1;
+    flex: 1;
+    min-height: 0;
     position: relative;
   }
 
-  .side-panel {
-    width: 100% !important;
-    height: 42vh;
-    border-right: none !important;
-    border-top: 1px solid rgba(255,255,255,0.08);
-    overflow-y: auto;
-    order: 2;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 0;
-    padding: 8px 10px 12px;
-    -webkit-overflow-scrolling: touch;
-  }
-
-  .sp-section {
-    min-width: 180px;
-    flex: 1 1 180px;
-    padding: 6px 8px;
-    border-bottom: none;
-    border-right: 1px solid rgba(255,255,255,0.06);
-  }
-  .sp-section:last-child { border-right: none; }
-
-  /* Hide the legend section in sidebar on mobile — shown as overlay instead */
-  .sp-section:has(.legend-row) { display: none; }
-
-  .map-container { order: 1; flex: 1; min-height: 0; }
-
-  /* Legend as map overlay on mobile */
+  /* Legend anchored to map-container, not app-body */
+  .map-container .mobile-legend,
   .mobile-legend {
     display: flex;
     flex-direction: column;
     gap: 5px;
     position: absolute;
-    bottom: calc(42vh + 8px);
+    bottom: 10px;
     right: 10px;
     background: rgba(15,23,42,0.82);
     backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
     border: 1px solid rgba(255,255,255,0.1);
     border-radius: 8px;
     padding: 8px 10px;
@@ -407,23 +390,79 @@ html, body, #root { width: 100%; height: 100%; overflow: hidden; }
   .mobile-legend .lines-row { gap: 3px; }
   .mobile-legend .lbadge { font-size: 9px; padding: 1px 4px; }
 
-  /* Title in bottom panel on mobile */
-  .mobile-panel-title {
-    display: block;
-    font-size: 10px;
-    font-weight: 700;
-    color: #475569;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    text-align: center;
-    padding: 4px 0 0;
-    order: 3;
-    background: #0f172a;
-    border-top: 1px solid rgba(255,255,255,0.05);
+  /* Bottom panel */
+  .side-panel {
+    width: 100% !important;
+    height: auto;
+    max-height: 38vh;
+    flex-shrink: 0;
+    overflow: auto;
+    order: 2;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0;
+    padding: 0;
+    -webkit-overflow-scrolling: touch;
+    border-right: none !important;
+    border-top: 1px solid rgba(255,255,255,0.08);
   }
 
-  .app { flex-direction: column; }
-  .app > div:not(.navbar) { display: flex; flex-direction: column; flex: 1; }
+  /* Title strip at top of bottom panel */
+  .mobile-panel-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    width: 100%;
+    flex: 0 0 100%;
+    font-size: 12px;
+    font-weight: 700;
+    color: #60a5fa;
+    letter-spacing: 0.03em;
+    text-align: center;
+    padding: 6px 0 5px;
+    background: rgba(8,13,25,0.97);
+    border-bottom: 1px solid rgba(255,255,255,0.06);
+    font-family: -apple-system, sans-serif;
+  }
+
+  /* Origin + Time budget side by side */
+  .sp-section.mobile-half {
+    min-width: 0;
+    flex: 1 1 45%;
+    overflow: visible;
+    border-right: 1px solid rgba(255,255,255,0.06);
+  }
+
+  /* Saved pins + Districts full width */
+  .sp-section.mobile-full {
+    flex: 0 0 100%;
+    border-right: none;
+    border-top: 1px solid rgba(255,255,255,0.06);
+    overflow: visible;
+  }
+
+  /* Tooltips on mobile: drop below the button */
+  .info-tip-box {
+    position: absolute !important;
+    left: 0 !important;
+    top: calc(100% + 4px) !important;
+    transform: none !important;
+    margin: 0 !important;
+    width: 200px !important;
+    z-index: 9999;
+  }
+
+  /* Hide legend from sidebar */
+  .sp-section:has(.legend-row) { display: none; }
+
+  /* Lightbox */
+  .lightbox {
+    width: 95vw !important;
+    max-height: 85vh !important;
+    border-radius: 8px;
+  }
+  .lightbox-overlay { align-items: flex-end; padding-bottom: 10px; }
 }
 
 /* ── font override for all lightbox content ── */
@@ -453,87 +492,3 @@ html, body, #root { width: 100%; height: 100%; overflow: hidden; }
 }
 .welcome-usecases li { color: #64748b; }
 
-/* ── Mobile layout ── */
-.mobile-legend { display: none; }
-.mobile-panel-title { display: none; }
-
-@media (max-width: 768px) {
-  .navbar {
-    padding: 6px 10px;
-    flex-wrap: wrap;
-    gap: 6px;
-    height: auto;
-  }
-  .nav-title { display: none; }
-  .poi-search-wrap { flex: 1; min-width: 0; order: 1; }
-  .nav-actions { order: 2; gap: 4px; }
-  .nav-btn { padding: 4px 8px; font-size: 10px; height: 26px; }
-
-  .app-body { flex-direction: column; }
-
-  .side-panel {
-    width: 100% !important;
-    height: 42vh;
-    border-right: none !important;
-    border-top: 1px solid rgba(255,255,255,0.08);
-    overflow-y: auto;
-    order: 2;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 0;
-    padding: 0;
-    -webkit-overflow-scrolling: touch;
-  }
-
-  .sp-section {
-    min-width: 160px;
-    flex: 1 1 160px;
-    border-bottom: none;
-    border-right: 1px solid rgba(255,255,255,0.06);
-  }
-  .sp-section:last-child { border-right: none; }
-
-  /* Hide legend sp-section on mobile — shown as map overlay instead */
-  .sp-section:has(.legend-row) { display: none; }
-
-  .map-container { order: 1; flex: 1; min-height: 0; }
-
-  /* Legend overlay on map */
-  .mobile-legend {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    position: absolute;
-    bottom: calc(42vh + 8px);
-    right: 10px;
-    background: rgba(15,23,42,0.82);
-    backdrop-filter: blur(6px);
-    -webkit-backdrop-filter: blur(6px);
-    border: 1px solid rgba(255,255,255,0.1);
-    border-radius: 8px;
-    padding: 8px 10px;
-    z-index: 5;
-    pointer-events: none;
-  }
-  .mobile-legend .legend-row { gap: 6px; font-size: 10px; }
-  .mobile-legend .lines-row { gap: 3px; }
-  .mobile-legend .lbadge { font-size: 9px; padding: 1px 4px; }
-
-  /* Title strip at very bottom */
-  .mobile-panel-title {
-    display: block;
-    order: 3;
-    font-size: 9px;
-    font-weight: 700;
-    color: #334155;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    text-align: center;
-    padding: 3px 0 4px;
-    background: #0a1120;
-    border-top: 1px solid rgba(255,255,255,0.04);
-    flex-shrink: 0;
-  }
-
-  .app { flex-direction: column; }
-}

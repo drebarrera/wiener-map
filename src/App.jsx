@@ -124,18 +124,36 @@ function computeAllStopData(stopData, lineData, destCoords) {
 
 // ── InfoTip ───────────────────────────────────────────────────────────────────
 function InfoTip({ text }) {
-  const [open, setOpen] = useState(false)
-  const ref = useRef(null)
+  const [clickOpen, setClickOpen] = useState(false)
+  const [hoverOpen, setHoverOpen] = useState(false)
+  const [pos, setPos] = useState({ top: 0, left: 0 })
+  const btnRef = useRef(null)
+  const wrapRef = useRef(null)
+  const isMobile = () => window.matchMedia('(max-width: 768px)').matches
   useEffect(() => {
-    if (!open) return
-    const handler = (e) => { if (!ref.current?.contains(e.target)) setOpen(false) }
+    if (!clickOpen) return
+    const handler = (e) => { if (!wrapRef.current?.contains(e.target)) setClickOpen(false) }
     document.addEventListener('mousedown', handler)
     return () => document.removeEventListener('mousedown', handler)
-  }, [open])
+  }, [clickOpen])
+  const open = isMobile() ? clickOpen : (hoverOpen || clickOpen)
+  const updatePos = () => {
+    if (!btnRef.current) return
+    const r = btnRef.current.getBoundingClientRect()
+    setPos({ top: r.top + r.height / 2, left: r.right + 6 })
+  }
   return (
-    <span className="info-tip-wrap" ref={ref}>
-      <button className="info-tip-btn" onClick={() => setOpen(v => !v)}>?</button>
-      {open && <div className="info-tip-box">{text}</div>}
+    <span className="info-tip-wrap" ref={wrapRef}
+      onMouseEnter={() => { if (!isMobile()) { updatePos(); setHoverOpen(true) } }}
+      onMouseLeave={() => setHoverOpen(false)}>
+      <button className="info-tip-btn" ref={btnRef}
+        onClick={() => { updatePos(); setClickOpen(v => !v) }}>?</button>
+      {open && (
+        <div className="info-tip-box" style={isMobile() ? {} : {
+          position: 'fixed', top: pos.top, left: pos.left,
+          transform: 'translateY(-50%)', margin: 0
+        }}>{text}</div>
+      )}
     </span>
   )
 }
@@ -239,7 +257,7 @@ function WelcomeLightbox({ onClose, onStart, helpOnly, initialDest, initialBudge
     <div className="lightbox-overlay" onClick={e => { if (e.target === e.currentTarget) onClose() }}>
       <div className="lightbox welcome-lightbox">
         <div className="lightbox-header">
-          <div className="welcome-title-row" style={{display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "center"}}>
+          <div className="welcome-title-row nav-title-main" style={{display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "center"}}>
             <span style={{fontSize: "26px", marginTop: "-6px"}}>&#128647;</span>
             <span>Wiener Linien Transmission Map</span>
           </div>
@@ -725,7 +743,7 @@ export default function App() {
   return (
     <div className="app">
       <nav className="navbar">
-        <div className="welcome-title-row" style={{display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "center"}}>
+        <div className="welcome-title-row nav-title-main" style={{display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "center"}}>
             <span style={{fontSize: "26px", marginTop: "-6px"}}>&#128647;</span>
             <span>Wiener Linien Transmission Map</span>
           </div>
@@ -747,7 +765,11 @@ export default function App() {
 
       <div className="app-body">
         <div className="side-panel">
-          <div className="sp-section">
+          <div className="mobile-panel-title">
+            <span style={{fontSize:"18px", marginTop:"-3px", display:"inline-block"}}>&#128647;</span>
+            {' '}Wiener Linien Transmission Map
+          </div>
+          <div className="sp-section mobile-half">
             <div className="sp-label">
               <span style={{"fontSize":"14px"}}>&#9873;</span> Origin
               <InfoTip text={TOOLTIPS.destination} />
@@ -756,7 +778,7 @@ export default function App() {
               onSelect={setDest} initialLabel={DEFAULT_DEST.label} label={dest.label} />
           </div>
 
-          <div className="sp-section">
+          <div className="sp-section mobile-half">
             <div className="sp-label">
               <span style={{"fontSize":"14px"}}>⏱</span> Time budget
               <InfoTip text={TOOLTIPS.timeBudget} />
@@ -792,7 +814,7 @@ export default function App() {
           </div>
 
           {savedPins.length > 0 && (
-            <div className="sp-section">
+            <div className="sp-section mobile-full">
               <div className="sp-label">
                 &#128205; Saved pins
                 <InfoTip text={TOOLTIPS.savedPins} />
@@ -819,7 +841,7 @@ export default function App() {
                           className={`pin-toggle-btn${isExpanded ? ' open' : ''}`}
                           onClick={() => setExpandedPinId(isExpanded ? null : pin.id)}
                           title={isExpanded ? 'Collapse' : 'Edit pin'}>
-                          {isExpanded ? '▲' : '▼'}
+                          {isExpanded ? '▼' : '▶'}
                         </button>
                       </div>
                       {isExpanded && (
@@ -840,7 +862,7 @@ export default function App() {
                               ))}
                             </div>
                             <button className="pin-delete-btn" onClick={() => handleDeletePin(pin.id)} title="Delete pin">
-                              &#128465;
+                              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="24px" width="24px" fill="#e3e3e3"><path d="M7,21q-0.82,0-1.41-0.59T5,19V6H4V4H9V3h6V4h5V6H19V19q0,0.82-0.59,1.41T17,21H7ZM17,6H7V19H17V6ZM9,17h2V8H9v9Zm4,0h2V8H13v9ZM7,6V19V6Z"/></svg>
                             </button>
                           </div>
                         </div>
@@ -852,7 +874,7 @@ export default function App() {
             </div>
           )}
 
-          <div className="sp-section">
+          <div className="sp-section mobile-full">
             <button className="sp-toggle" onClick={() => setShowDistricts(v => !v)}>
               Districts {showDistricts ? '▲' : '▼'}
             </button>
@@ -862,24 +884,22 @@ export default function App() {
           </div>
         </div>
 
-        <div ref={mapContainer} className="map-container" />
-
-        <div className="mobile-legend">
-          <div className="legend-row">
-            <span className="sw pos"/><span>Positive</span>
-            <span className="sw neg"/><span>Negative</span>
-            <span className="sw neu"/><span>Neutral</span>
-          </div>
-          <div className="lines-row">
-            {Object.entries(LINE_COLORS).filter(([k]) => k.startsWith('U')).map(([ref,color]) => (
-              <span key={ref} className="lbadge" style={{background:color}}>{ref}</span>
-            ))}
-            <span className="lbadge" style={{background:LINE_COLORS.tram}}>Tram</span>
+        <div ref={mapContainer} className="map-container">
+          <div className="mobile-legend">
+            <div className="legend-row">
+              <span className="sw pos"/><span>Positive</span>
+              <span className="sw neg"/><span>Negative</span>
+              <span className="sw neu"/><span>Neutral</span>
+            </div>
+            <div className="lines-row">
+              {Object.entries(LINE_COLORS).filter(([k]) => k.startsWith('U')).map(([ref,color]) => (
+                <span key={ref} className="lbadge" style={{background:color}}>{ref}</span>
+              ))}
+              <span className="lbadge" style={{background:LINE_COLORS.tram}}>Tram</span>
+            </div>
           </div>
         </div>
       </div>
-
-      <div className="mobile-panel-title">Wiener Linien Transmission</div>
 
       {(lightbox?.mode === 'welcome' || lightbox?.mode === 'help') && (
         <WelcomeLightbox
