@@ -258,7 +258,7 @@ function WelcomeLightbox({ onClose, onStart, helpOnly, initialDest, initialBudge
       <div className="lightbox welcome-lightbox">
         <div className="lightbox-header">
           <div className="welcome-title-row nav-title-main" style={{display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "center"}}>
-            <span style={{fontSize: "26px", marginTop: "-6px"}}>&#128647;</span>
+            <span style={{fontSize: "26px", marginTop: "-4px"}}>&#128647;</span>
             <span>Wiener Linien Transmission Map</span>
           </div>
           <button className="lightbox-close" onClick={onClose}>&#10005;</button>
@@ -745,7 +745,7 @@ export default function App() {
     <div className="app">
       <nav className="navbar">
         <div className="welcome-title-row nav-title-main" style={{display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "center"}}>
-            <span style={{fontSize: "26px", marginTop: "-6px"}}>&#128647;</span>
+            <span style={{fontSize: "26px", marginTop: "-4px"}}>&#128647;</span>
             <span>Wiener Linien Transmission Map</span>
           </div>
         <div className="poi-search-wrap" ref={poiGeoSearchRef}>
