@@ -309,14 +309,21 @@ function WelcomeLightbox({ onClose, onStart, helpOnly, initialDest, initialBudge
 
         {!helpOnly && importMode && (
           <>
+            <div style={{display:'flex', justifyContent:'space-between', gap:'8px'}}>
+              <button className="lightbox-btn" onClick={() => setImportMode(false)}>&#8592; Back</button>
+              <button className="lightbox-btn" onClick={async () => {
+                const r = await fetch('/demo.json'); const txt = await r.text()
+                setImportText(txt)
+              }}>Load demo data</button>
+            </div>
             <p className="lightbox-desc">Paste a previously exported JSON to restore your pins and district preferences.</p>
             <textarea className="lightbox-textarea"
+              style={{minHeight: '52px'}}
               value={importText}
               placeholder='{"savedPins": [...], "sentiment": {...}}'
               onChange={e => setImportText(e.target.value)}
               spellCheck={false} />
             <div className="lightbox-actions">
-              <button className="lightbox-btn" onClick={() => setImportMode(false)}>&#8592; Back</button>
               <button className="lightbox-btn primary" onClick={() => onStart({ dest, budget, importJson: importText })}>
                 Import &amp; start
               </button>
@@ -932,7 +939,13 @@ export default function App() {
             <div className="lightbox-actions">
               {lightbox.mode === 'export'
                 ? <button className="lightbox-btn primary" onClick={() => navigator.clipboard?.writeText(lightbox.text)}>Copy to clipboard</button>
-                : <button className="lightbox-btn primary" onClick={() => handleImport(lightbox.text)}>Import</button>
+                : <>
+                    <button className="lightbox-btn" onClick={async () => {
+                      const r = await fetch('/demo.json'); const txt = await r.text()
+                      setLightbox(lb => ({ ...lb, text: txt }))
+                    }}>Load demo data</button>
+                    <button className="lightbox-btn primary" onClick={() => handleImport(lightbox.text)}>Import</button>
+                  </>
               }
               <button className="lightbox-btn" onClick={() => setLightbox(null)}>Close</button>
             </div>

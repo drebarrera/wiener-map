@@ -1,6 +1,6 @@
 # Vienna Transit Map
 
-![Example Map](example.webp)
+![Example Map](public/example.webp)
 
 The Wiener Linien Transmission Map visualises transit reach from a fixed origin using Wiener Linien U-Bahn and Tram services: every stop reachable within the assigned time budget is shown with a walking radius circle, indicating the approximate radial distance you could cover on foot after exiting at that stop. The map assumes direct service with no transfers.
 
