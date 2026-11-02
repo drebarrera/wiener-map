@@ -1,14 +1,13 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 html, body, #root { width: 100%; height: 100%; overflow: hidden; }
-@supports (padding-bottom: env(safe-area-inset-bottom)) {
-  .app { padding-bottom: env(safe-area-inset-bottom); }
-}
+
 .app { display: flex; flex-direction: column; width: 100vw; height: 100vh; }
 
 /* ── Navbar ── */
 .navbar {
   display: flex; align-items: center; gap: 12px;
-  padding: 0 16px; height: 44px; flex-shrink: 0; z-index: 30;
+  padding: 0 16px; padding-top: env(safe-area-inset-top, 0px);
+  height: calc(44px + env(safe-area-inset-top, 0px)); flex-shrink: 0; z-index: 30;
   background: rgba(8,13,25,0.97);
   border-bottom: 1px solid rgba(255,255,255,0.07);
   font-family: -apple-system, sans-serif;
@@ -44,7 +43,7 @@ html, body, #root { width: 100%; height: 100%; overflow: hidden; }
 
 /* ── Side panel ── */
 .side-panel {
-  width: 250px; flex-shrink: 0; overflow: visible;
+  width: 250px; flex-shrink: 0; overflow-y: auto; overflow-x: visible;
   background: rgba(8,13,25,0.97);
   border-right: 1px solid rgba(255,255,255,0.07);
   font-family: -apple-system, sans-serif;
@@ -408,7 +407,7 @@ html, body, #root { width: 100%; height: 100%; overflow: hidden; }
     flex-wrap: wrap;
     gap: 0;
     padding: 0;
-    padding-bottom: env(safe-area-inset-bottom, 0px);
+    padding-bottom: max(env(safe-area-inset-bottom, 0px), 8px);
     -webkit-overflow-scrolling: touch;
     border-right: none !important;
     border-top: 1px solid rgba(255,255,255,0.08);
