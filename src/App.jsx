@@ -412,7 +412,8 @@ export default function App() {
     const expr = ['case']
     for (const [num, val] of Object.entries(sentiment)) {
       if (val === 1)  expr.push(['==', ['get','districtNum'], num], '#4ade80')
-      if (val === -1) expr.push(['==', ['get','districtNum'], num], '#f87171')
+      else if (val === -1) expr.push(['==', ['get','districtNum'], num], '#f87171')
+      else expr.push(['==', ['get','districtNum'], num], '#94a3b8')
     }
     expr.push('#94a3b8')
     map.current.setPaintProperty('districts-fill', 'fill-color', expr)
